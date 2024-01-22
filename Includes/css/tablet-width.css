@@ -1,0 +1,15 @@
+@media (max-width: 768px){
+
+    body{   font-size: 0.7rem;  }
+    /* Header */
+    /* Header Bottom */
+    header .container .desktop-nav{    display: none;  }
+    header .row .cart .it-cnt{  font-size: 0.8rem;  padding: 0px 3px;   top: -5px;  right: -5px;    }
+    /* Mobile Nav */
+    header .mobile-nav{ display: flex;}
+
+    /* Hero Banner */
+    #hero-bnr{  z-index: -10;   background-image: linear-gradient(45deg, #ffffffbb, #ffffffbb), url('/assets/hero-bnr-img-main.jpg');   background-position: center;    background-repeat: no-repeat;   background-size: cover; }
+    #hero-bnr .col-6{   width: 100%;    }
+    #hero-bnr .col-6:last-child{    display: none;  }
+}
