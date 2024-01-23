@@ -29,7 +29,7 @@ header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-i
 #aboutus::before{   content: "";    height: 90%;   width: 1440px;    background: #35b9be22;    position: absolute; top: 48%;   left: 50%; -webkit-clip-path: polygon(0 10%, 100% 5%, 100% 100%, 0% 100%);  clip-path: polygon(0 10%, 100% 5%, 100% 100%, 0% 100%);   transform: translate(-50%, -50%);   }
 /* Left */
 #aboutus .col-6:first-child{   z-index: 10;}
-#aboutus .col-6:first-child::before{    position: absolute; content: "yumyum";  z-index: -1;    color: #fff;    font-size: 12rem;    font-family: Herr Von Muellerhoff;  transform: rotate(-15deg); top: -15%;   left: 5%;    font-weight: 500;}
+#aboutus .col-6:first-child::before{    position: absolute; content: "yumyum";  z-index: -1;    color: #fff;    font-size: 12rem;    font-family: Seaweed Script;  transform: rotate(-15deg); top: -15%;   left: 5%;    font-weight: 500;}
 
 /* Right */
 #aboutus .col-6:last-child{ padding: 0 120px;   }
@@ -109,7 +109,7 @@ h1,h2{  font-size: 45px;    margin: 0;   line-height: 3rem; }
 #aboutus .col-6:first-child::before{    font-size: 8rem;   top: 0%;    }
 /* Right */
 #aboutus .col-6:last-child{    padding: 0 80px;  }
-#aboutus .col-6:last-child .btn{    padding: 1rem !important;   left: 80px;    font-size: 0.9rem;}
+#aboutus .col-6:last-child .btn{    padding: 1rem !important;   left: 80px; }
 #aboutus .col-6:last-child img:last-child{  right: 40px;    }
 
 }
@@ -141,7 +141,7 @@ h1,h2{  font-size: 35px;    margin: 0;   line-height: 2.5rem;   padding-right: 2
 
 /* Right */
 #aboutus .col-6:last-child{    padding: 0 80px;  }
-#aboutus .col-6:last-child .btn{    font-size: 0.9rem;  width: 50px;    } 
+#aboutus .col-6:last-child .btn{    font-size: 0.9rem;  width: 45px;    } 
 #aboutus .col-6:last-child img:last-child{  right: 50px;    }
 
 }
