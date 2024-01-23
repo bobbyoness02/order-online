@@ -37,7 +37,7 @@ header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-i
 #aboutus .col-6:last-child .btn{    word-wrap: break-word;  width: 50px;    transform: translate(-50%, -50%);   left: 120px;    font-size: 1.1rem;  border: none;   }
 #aboutus .col-6:last-child .btn:is(:hover, :focus){ letter-spacing: normal; }
 #aboutus .col-6:last-child .btn::after{ content: url(/assets/party-confetti-dark.svg);  height: auto;  width: 150px;    top: 50%;   left: 50%;  transform: translate(-50%, -50%) }
-#aboutus .col-6:last-child img:last-child{  bottom: 20%;    height: 6vw;   width: 6vw;   object-fit: cover; right: 60px;   object-view-box:inset(0 -20% 0 0);   }
+#aboutus .col-6:last-child img:last-child{  bottom: 20%;    height: 8vw;   width: 8vw;   object-fit: cover; right: 60px;   object-view-box:inset(0 -20% 0 0);   }
 
 
 
