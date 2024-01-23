@@ -19,9 +19,40 @@ header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-i
 /* Right */
 #hero-bnr .col-6:last-child{    padding: 0 12% 0 6%;   }
 #hero-bnr .col-6 .bnr-main-img{ border-radius: 120px 30px;  }
-#hero-bnr .col-6:last-child img:nth-child(2){   height: 15rem;  width: 15rem;   bottom: -50px;  right: 110px;    object-fit: cover;  object-position: top;   }
-#hero-bnr .col-6:last-child img:nth-child(3){   height: 80px;  bottom: 60px;  right: 300px;    object-view-box: inset(20px);   }
-#hero-bnr .col-6:last-child img:nth-child(4){   height: 40px;   width: 40px;    object-fit: cover;  object-view-box: inset(0 50px 0 0); bottom: 130px;  right: 120px;}
+#hero-bnr .col-6:last-child img:nth-child(2){   height: 15rem;  width: 15rem;   bottom: -50px;  right: 80px;    object-fit: cover;  object-position: top;   }
+#hero-bnr .col-6:last-child img:nth-child(3){   height: 80px;  bottom: 60px;  right: 270px;    object-view-box: inset(20px);   }
+#hero-bnr .col-6:last-child img:nth-child(4){   height: 40px;   width: 40px;    object-fit: cover;  object-view-box: inset(0 50px 0 0); bottom: 130px;  right: 15%;}
+
+
+/* About Us */
+#aboutus::before{   content: "";    height: 90%;   width: 1440px;    background: #35b9be22;    position: absolute; top: 48%;   left: 50%; -webkit-clip-path: polygon(0 10%, 100% 5%, 100% 100%, 0% 100%);  clip-path: polygon(0 10%, 100% 5%, 100% 100%, 0% 100%);   transform: translate(-50%, -50%);   }
+/* Left */
+#aboutus .col-6:first-child{   z-index: 10;}
+#aboutus .col-6:first-child::before{    position: absolute; content: "yumyum";  z-index: -1;    color: #fff;    font-size: 12rem;    font-family: rage;  transform: rotate(-15deg); top: -15%;   left: 5%;    }
+
+/* Right */
+#aboutus .col-6:last-child{ padding: 0 120px;   }
+#aboutus .col-6:last-child img:first-child{ border-radius: 20px;    object-view-box: inset(25px);   }
+#aboutus .col-6:last-child .btn{    word-wrap: break-word;  width: 50px;    transform: translate(-50%, -50%);   left: 120px;    font-size: 1.1rem;}
+#aboutus .col-6:last-child .btn:is(:hover, :focus){ letter-spacing: normal; }
+#aboutus .col-6:last-child .btn::after{ content: url(/assets/party-confetti-dark.svg);  height: auto;  width: 150px;    top: 50%;   left: 50%;  transform: translate(-50%, -50%) }
+#aboutus .col-6:last-child img:last-child{  bottom: 20%;    height: 6vw;   width: 6vw;   object-fit: cover; right: 60px;   object-view-box:inset(0 -20% 0 0);   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -30,21 +61,32 @@ header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-i
 
 /* Desktop Width Responsive */
 @media (max-width: 1399px){
-
-h1,h2{  margin: 0;   line-height: 3.5rem;}
+body{   font-size: 0.9rem;  }
+h1,h2{  font-size: 50px;    margin: 0;   line-height: 3.5rem;   padding-right: 100px !important;    }
 
 /* Hero Banner */
-#hero-bnr{  padding: 75px 0 !important;}
+#hero-bnr{  padding: 75px 0 !important; }
 /* Left */
-#hero-bnr h1{   font-size: 55px;    }
+#hero-bnr h1{   font-size: 55px;    padding-right: 0 !important;    }
+
+
+/* About Us */
+#aboutus{   padding: 75px 0 !important; }
+#aboutus::before{   width: 1199px;  }
+/* Left */
+#aboutus .col-6:first-child::before{    font-size: 10rem;   }
 /* Right */
+#aboutus .col-6:last-child{    padding: 0 120px;  }
+#aboutus .col-6:last-child img:last-child{  right: 80px;    }
 
 }
 
 
 @media (max-width: 1199px){
-body{   font-size: 0.9rem !important;   }
-h1,h2{  margin: 0;   line-height: 3rem;}
+body{   font-size: 0.8rem !important;   }
+h1,h2{  font-size: 45px;    margin: 0;   line-height: 3rem; }
+
+
 /* Hero Banner */
 #hero-bnr{  padding: 50px 0 !important}
 /* Left */
@@ -55,15 +97,27 @@ h1,h2{  margin: 0;   line-height: 3rem;}
 #hero-bnr .col-6:first-child .tp-logo{  height: 30px;   width: 30px;    }
 #hero-bnr .col-6:last-child img:nth-child(1){   border-radius: 70px 20px;   }
 #hero-bnr .col-6:last-child img:nth-child(2){   height: 13rem;  width: 13rem;   right: 65px;    }
-#hero-bnr .col-6:last-child img:nth-child(3){   height: 70px;   right: 240px;   bottom: 40px;   }
-#hero-bnr .col-6:last-child img:nth-child(4){   height: 40px;   width: 40px;    bottom: 100px;  right: 75px;    }
+#hero-bnr .col-6:last-child img:nth-child(3){   height: 60px;   right: 250px;   bottom: 40px;   }
+#hero-bnr .col-6:last-child img:nth-child(4){   height: 40px;   width: 40px;    bottom: 100px;  right: 15%;    }
+
+
+/* About Us */
+#aboutus{   padding: 50px 0 !important; }
+#aboutus::before{   width: 992px;  height: 95%;}
+/* Left */
+#aboutus .col-6:first-child::before{    font-size: 8rem;   top: 0%;    }
+/* Right */
+#aboutus .col-6:last-child{    padding: 0 80px;  }
+#aboutus .col-6:last-child .btn{    padding: 1rem !important;   left: 80px;    font-size: 0.9rem;}
+#aboutus .col-6:last-child img:last-child{  right: 40px;    }
 
 }
 
 @media (max-width: 992px){
 body{   font-size: 0.7rem !important;   }
-h1,h2{  margin: 0;   line-height: 2.5rem;}
-.btn{   padding: 1rem 0.1rem !important;  width: 180px;    font-size: 0.7rem;}
+h1,h2{  font-size: 35px;    margin: 0;   line-height: 2.5rem;   padding-right: 25px !important;    }
+
+
 /* Hero Banner */
 #hero-bnr{  padding: 25px 0 !important}
 /* Left */
@@ -72,8 +126,21 @@ h1,h2{  margin: 0;   line-height: 2.5rem;}
 #hero-bnr .col-6:first-child .trustpilot{   font-size: 1rem !important;   margin-top: 15px; }
 #hero-bnr .col-6:first-child .tp-logo{  height: 30px;   width: 30px;    }
 /* Right */
-#hero-bnr .col-6:last-child img:nth-child(2){   height: 10rem;  width: 10rem;   right: 20px;    }
-#hero-bnr .col-6:last-child img:nth-child(3){   height: 50px;   right: 150px;   bottom: 30px;   }
-#hero-bnr .col-6:last-child img:nth-child(4){   height: 30px;   width: 30px;    bottom: 70px;  right: 25px;    }
+#hero-bnr .col-6:last-child img:nth-child(2){   height: 8rem;  width: 8rem;   right: 50px;    bottom: -20px;    }
+#hero-bnr .col-6:last-child img:nth-child(3){   height: 40px;   right: 150px;   bottom: 30px;   }
+#hero-bnr .col-6:last-child img:nth-child(4){   height: 30px;   width: 30px;    bottom: 70px;  right: 15%;    }
+
+
+/* About Us */
+#aboutus{   padding: 25px 0 !important; }
+#aboutus::before{   width: 768px;  }
+/* Left */
+#aboutus .col-6:first-child::before{    font-size: 6rem;   top: 0%; }
+#aboutus .col-6:first-child p{  padding-right: 0 !important;}
+
+/* Right */
+#aboutus .col-6:last-child{    padding: 0 80px;  }
+#aboutus .col-6:last-child .btn{    font-size: 0.9rem;  width: 50px;    } 
+#aboutus .col-6:last-child img:last-child{  right: 50px;    }
 
 }

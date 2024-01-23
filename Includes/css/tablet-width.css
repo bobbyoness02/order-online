@@ -13,4 +13,6 @@
     #hero-bnr{  z-index: -10;   background-image: linear-gradient(45deg, #ffffffbb, #ffffffbb), url(/assets/hero-bnr-img-main.jpg);   background-position: center;    background-repeat: no-repeat;   background-size: cover; }
     #hero-bnr .col-6{   width: 100%;    }
     #hero-bnr .col-6:last-child{    display: none;  }
+
+    /* About Us */
 }
