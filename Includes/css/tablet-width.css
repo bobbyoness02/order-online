@@ -21,6 +21,6 @@
     #aboutus .col-6:first-child h2{    padding-right: 0 !important; font-size: 30px;    margin-bottom: 15px;    line-height: 2rem;  }
     /* Right */
     #aboutus .col-6:last-child{ padding: 0 6%;  }
-    #aboutus .col-6:last-child .btn{    font-size: 0.6rem;  width: 40px;    left: 25px;}
+    #aboutus .col-6:last-child .btn{    font-size: 0.6rem;  width: 40px;    left: 30px;}
     #aboutus .col-6:last-child img:last-child{  right: 10px;    }
 }
