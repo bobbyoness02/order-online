@@ -141,7 +141,7 @@ h1,h2{ font-size: 60px;    margin: 0;   line-height: 4rem;}
 .btn{   position: relative; z-index: 3; overflow: hidden;   width: 190px;   font-size: 1rem;}
 .btn:is(:hover, :focus){ letter-spacing: 2px;    transition: 0.5s;   }
 .btn::before{   content: "";    position: absolute; top: 0; left: 0;    height: 100%;   width: 100%;    background: #35b9be;    z-index: -2;    }
-.btn::after{    content: url('/assets/pizza.svg');  position: absolute; top: 5%; right: 30px;    z-index: -1;   }
+.btn::after{    content: url('./assets/pizza.svg');  position: absolute; top: 5%; right: 30px;    z-index: -1;   }
 .btn:is(:focus, :active){   box-shadow: 0 5px 10px 2px #22311d55;    border: 1px solid #35b9be;   }
 
 @media (max-width: 1399px){ .btn{   width: 180px;   font-size: 0.9rem;  }   }

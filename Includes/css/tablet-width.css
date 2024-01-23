@@ -10,9 +10,12 @@
     header .mobile-nav{ display: flex;}
 
     /* Hero Banner */
-    #hero-bnr{  z-index: -10;   background-image: linear-gradient(45deg, #ffffffbb, #ffffffbb), url(/assets/hero-bnr-img-main.jpg);   background-position: center;    background-repeat: no-repeat;   background-size: cover; }
+    #hero-bnr{background-image: linear-gradient(45deg, #ffffffbb, #ffffffbb), url(/assets/hero-bnr-img-main.jpg);   background-position: center;    background-repeat: no-repeat;   background-size: cover; }
     #hero-bnr .col-6{   width: 100%;    }
     #hero-bnr .col-6:last-child{    display: none;  }
 
     /* About Us */
+    #aboutus::before{   width: calc(576px + 30px) !important;   }
+    /* Left */
+    #aboutus .col-6:first-child h2{    padding-right: 0 !important; font-size: 30px;    margin-bottom: 15px;        }
 }
