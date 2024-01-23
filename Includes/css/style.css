@@ -14,7 +14,7 @@ header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-i
 
 
 /* Hero Bannner */
-#hero-bnr::before{  content: "";    background: #35b9be;    position: absolute; height: 100%;   width: 100%;    -webkit-clip-path: ellipse(50% 70% at 100% 0%); clip-path: ellipse(50% 70% at 100% 0%); top: 0; right: 0;   opacity: 0.2;   }
+#hero-bnr::before{  content: "";    background: #35b9be;    position: absolute; height: 100%;   width: 100%;    -webkit-clip-path: ellipse(50% 70% at 100% 0%); clip-path: ellipse(50% 70% at 100% 0%); top: 0; right: 0;   opacity: 0.2;   z-index: 1;}
 /* Left */
 #hero-bnr .col-6 .tp-logo{  height: 50px;   width: 50px;    margin-left: -10px; }
 /* Right */
