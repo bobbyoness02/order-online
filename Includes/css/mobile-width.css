@@ -1,3 +1,12 @@
 @media (max-width: 576px){
+
+
     .container{ width: 100%;    max-width: calc(100% - 40px);   margin: auto;   }
+
+    /* About Us */
+    #aboutus::before{   width: 95% !important; height: 90%;    }
+    /* left */
+    #aboutus .col-6:first-child::before{    font-size: 4rem;    }
+    #aboutus .col-6:first-child h2{    font-size: 1.3rem;  line-height: 1.3rem; margin-bottom: 10px;    }
+    #aboutus .col-6:first-child p{  font-size: 0.6rem;  margin-bottom: 10px;    }
 }   
