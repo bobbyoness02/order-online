@@ -15,7 +15,12 @@
     #hero-bnr .col-6:last-child{    display: none;  }
 
     /* About Us */
-    #aboutus::before{   width: calc(576px + 30px) !important;   }
+    #aboutus::before{   width: calc(576px + 30px) !important;   height: 100%;}
     /* Left */
-    #aboutus .col-6:first-child h2{    padding-right: 0 !important; font-size: 30px;    margin-bottom: 15px;        }
+    #aboutus .col-6:first-child::before{    font-size: 5rem;    top: 15%;   }
+    #aboutus .col-6:first-child h2{    padding-right: 0 !important; font-size: 30px;    margin-bottom: 15px;    line-height: 2rem;  }
+    /* Right */
+    #aboutus .col-6:last-child{ padding: 0 6%;  }
+    #aboutus .col-6:last-child .btn{    font-size: 0.6rem;  width: 40px;    left: 35px;}
+    #aboutus .col-6:last-child img:last-child{  right: 10px;    }
 }
