@@ -4,6 +4,7 @@
     /* Header */
     /* Header Bottom */
     header .container .desktop-nav{    display: none;  }
+    header .row .cart{  padding: 5px 10px;  }
     header .row .cart .it-cnt{  font-size: 0.8rem;  padding: 0px 3px;   top: -5px;  right: -5px;    }
     /* Mobile Nav */
     header .mobile-nav{ display: flex;}

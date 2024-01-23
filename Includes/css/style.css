@@ -13,14 +13,15 @@ header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-i
 
 
 /* Hero Bannner */
+#hero-bnr::before{  content: "";    background: #35b9be;    position: absolute; height: 100%;   width: 100%;    -webkit-clip-path: ellipse(50% 70% at 100% 0%); clip-path: ellipse(50% 70% at 100% 0%); top: 0; right: 0;   opacity: 0.2;   }
 /* Left */
 #hero-bnr .col-6 .tp-logo{  height: 50px;   width: 50px;    margin-left: -10px; }
 /* Right */
-#hero-bnr .col-6:last-child{    padding: 0 10% 0 5%;   }
+#hero-bnr .col-6:last-child{    padding: 0 12% 0 6%;   }
 #hero-bnr .col-6 .bnr-main-img{ border-radius: 120px 30px;  }
-#hero-bnr .col-6:last-child img:nth-child(2){   height: 20rem;  width: 20rem;   bottom: -50px;  right: 50px;    object-fit: cover;  object-position: top;   }
-#hero-bnr .col-6:last-child img:nth-child(3){   height: 100px;  bottom: 90px;  right: 310px;    object-view-box: inset(20px);   }
-#hero-bnr .col-6:last-child img:nth-child(4){   height: 50px;   width: 50px;    object-fit: cover;  object-view-box: inset(0 50px 0 0); bottom: 200px;  right: 70px;}
+#hero-bnr .col-6:last-child img:nth-child(2){   height: 15rem;  width: 15rem;   bottom: -50px;  right: 110px;    object-fit: cover;  object-position: top;   }
+#hero-bnr .col-6:last-child img:nth-child(3){   height: 80px;  bottom: 60px;  right: 300px;    object-view-box: inset(20px);   }
+#hero-bnr .col-6:last-child img:nth-child(4){   height: 40px;   width: 40px;    object-fit: cover;  object-view-box: inset(0 50px 0 0); bottom: 130px;  right: 120px;}
 
 
 
@@ -30,46 +31,47 @@ header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-i
 /* Desktop Width Responsive */
 @media (max-width: 1399px){
 
+h1,h2{  margin: 0;   line-height: 3.5rem;}
+
 /* Hero Banner */
+#hero-bnr{  padding: 75px 0 !important;}
 /* Left */
 #hero-bnr h1{   font-size: 55px;    }
 /* Right */
-#hero-bnr .col-6:last-child{    padding: 0 8% 0 4%; }
-
-
-
 
 }
 
 
 @media (max-width: 1199px){
 body{   font-size: 0.9rem !important;   }
+h1,h2{  margin: 0;   line-height: 3rem;}
 /* Hero Banner */
 #hero-bnr{  padding: 50px 0 !important}
 /* Left */
 #hero-bnr h1{   font-size: 45px;    margin-bottom: 25px !important; }
-#hero-bnr p{    margin-bottom:  25px !important;    }
+#hero-bnr p{    margin-bottom:  25px !important;    padding-right: 0;}
 /* Right */
 #hero-bnr .col-6:first-child .trustpilot{   font-size: 1rem !important;   margin-top: 15px; }
 #hero-bnr .col-6:first-child .tp-logo{  height: 30px;   width: 30px;    }
-#hero-bnr .col-6:last-child img:nth-child(2){   height: 15rem;  width: 15rem;   right: 20px;    }
-#hero-bnr .col-6:last-child img:nth-child(3){   height: 70px;   right: 220px;   bottom: 70px;   }
-#hero-bnr .col-6:last-child img:nth-child(4){   height: 40px;   width: 40px;    bottom: 130px;  right: 30px;    }
+#hero-bnr .col-6:last-child img:nth-child(1){   border-radius: 70px 20px;   }
+#hero-bnr .col-6:last-child img:nth-child(2){   height: 13rem;  width: 13rem;   right: 65px;    }
+#hero-bnr .col-6:last-child img:nth-child(3){   height: 70px;   right: 240px;   bottom: 40px;   }
+#hero-bnr .col-6:last-child img:nth-child(4){   height: 40px;   width: 40px;    bottom: 100px;  right: 75px;    }
 
 }
 
 @media (max-width: 992px){
 body{   font-size: 0.7rem !important;   }
+h1,h2{  margin: 0;   line-height: 2.5rem;}
 .btn{   padding: 1rem 0.1rem !important;  width: 180px;    font-size: 0.7rem;}
 /* Hero Banner */
 #hero-bnr{  padding: 25px 0 !important}
 /* Left */
-#hero-bnr h1{   font-size: 34px;    margin-bottom: 25px !important; }
-#hero-bnr p{    margin-bottom:  25px !important;    }
-/* Right */
-#hero-bnr .col-6:last-child{    padding: 0 6% 0 2%; }
+#hero-bnr h1{   font-size: 34px;    margin-bottom: 15px !important; }
+#hero-bnr p{    margin-bottom:  15px !important;    }
 #hero-bnr .col-6:first-child .trustpilot{   font-size: 1rem !important;   margin-top: 15px; }
 #hero-bnr .col-6:first-child .tp-logo{  height: 30px;   width: 30px;    }
+/* Right */
 #hero-bnr .col-6:last-child img:nth-child(2){   height: 10rem;  width: 10rem;   right: 20px;    }
 #hero-bnr .col-6:last-child img:nth-child(3){   height: 50px;   right: 150px;   bottom: 30px;   }
 #hero-bnr .col-6:last-child img:nth-child(4){   height: 30px;   width: 30px;    bottom: 70px;  right: 25px;    }
