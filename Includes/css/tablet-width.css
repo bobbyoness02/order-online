@@ -29,7 +29,7 @@
     #simp-ckt{  padding: 50px 0 !important; }
     #simp-ckt .row{ flex-direction: column-reverse; }
     #simp-ckt .row .col-6{  width: 100%;       }
-    #simp-ckt .row .col-6:first-child{   height: 80vh;   width: 100%;    }
+    #simp-ckt .row .col-6:first-child{   height: 50vh;   width: 100%;    }
     #simp-ckt .row .col-6:first-child > img{    width: 40%;}
     #simp-ckt .row .col-6:first-child .card{  transform: translate(-50%, -50%) scale(1) !important;   }
 
