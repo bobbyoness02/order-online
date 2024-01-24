@@ -15,6 +15,7 @@ body{   margin: 0;  padding: 0; overflow-x: hidden;   cursor: default;    positi
 
 /* Font Colors */
 .clr-primary{   color: #35b9be !important;  }
+.clr-darkgreen{  color: #22311d}
 
 /* Font Family */
 .ft-primary{    font-family: poppins;   }
@@ -135,7 +136,7 @@ a{  text-decoration: none;  color: #22311d; }
 .container{ padding-left: 0;    padding-right: 0;  margin: auto;    position: relative; z-index: 10;}
 
 /* Font Size */
-h1,h2{ font-size: 60px;    margin: 0;   line-height: 4rem;}
+h1,h2{ font-size: 60px;    margin: 0;   line-height: 4rem;  font-family: inter;}
 
 /* Button */
 .btn{   position: relative; z-index: 3; overflow: hidden;   width: 190px;   font-size: 1rem;}
@@ -157,3 +158,6 @@ h1,h2{ font-size: 60px;    margin: 0;   line-height: 4rem;}
 .rounded-10{ border-radius: 10px; }
 .rounded-12{ border-radius: 12px; }
 .rounded-14{ border-radius: 14px; }
+
+/* Box Shadow Effects*/
+.bs-e1{ box-shadow: 0 0px 10px #22311d55;    }
