@@ -24,14 +24,30 @@
     #aboutus .col-6:last-child .btn{    font-size: 0.6rem;  width: 40px;    left: 30px;}
     #aboutus .col-6:last-child img:last-child{  right: 10px;    }
 
+    /* How it works */
+    #hiw{   padding: 50px 0 !important; }
+
+    #hiw .container-lg::after{  content: "";}
+    #hiw .container-lg::before{ content: "";    width: 3px; background: #22311d;    height: 140%;   border-radius: 50px;    top: 50%;   left: 50%; transform: translate(-50%, -50%);   }    
+    #hiw .row .col-4{   width: 50%;       margin-right: 50%;  }
+    #hiw .row .col-4:nth-child(even){   margin-right: 0;   margin-left: 50%;  }
+    #hiw .container-lg .auto ~ p{   padding: 0 30px !important;    }
+    #hiw .container-lg .cart{   right: auto;    left: 170px;    }
+    #hiw .container-lg .it-cnt{ right: auto;    left: 205px;    }
+    #hiw .row .col-4:first-child ~ .col-4{    margin-top: -50px;  }
+    #hiw .row .col-4 img::after{content: "1";   color: #ffffff;    background: #22311d; position: absolute; top: 0; left: 0;    z-index: 5; height: 100%;   width: 100%;    font-size: 60px;    }
+
+
 
     /* Simple Checkout */
     #simp-ckt{  padding: 50px 0 !important; }
-    #simp-ckt .row{ flex-direction: column-reverse; }
+    #simp-ckt .row{ flex-direction: column-reverse; align-items: start !important;  }
     #simp-ckt .row .col-6{  width: 100%;       }
-    #simp-ckt .row .col-6:first-child{   height: 50vh;   width: 100%;    }
+    #simp-ckt .row .col-6:first-child{   height: 50vh;   width: 100%;    margin-left: 20%;  }
     #simp-ckt .row .col-6:first-child > img{    width: 40%;}
     #simp-ckt .row .col-6:first-child .card{  transform: translate(-50%, -50%) scale(1) !important;   }
+    #simp-ckt .col-6:last-child h2{ padding-right: 10% !important;  }  
+    #simp-ckt .col-6:last-child p{  padding-right: 25% !important;  }
 
 
     /* Call our Store */

@@ -218,12 +218,6 @@ h1,h2{  font-size: 45px;    margin: 0;   line-height: 3rem; }
 #aboutus .col-6:last-child img:last-child{  right: 40px;    }
 
 
-/* How it works */
-#hiw .container-lg::after{  content: "";}
-#hiw .container-lg::before{ content: "";    width: 3px; background: #22311d;    height: 100%;   border-radius: 50px;    top: 50%;   left: 50%; transform: translate(-50%, -50%);   }    
-#hiw .row{  display: block !important;  }
-#hiw .row .col-4{   width: 100%;    padding-right: 50vw;    }
-
 /* About Us */
 #cos{   padding: 50px 0 !important; }
 #cos::before{   width: 768px;  height: 95%;}
@@ -236,6 +230,16 @@ h1,h2{  font-size: 45px;    margin: 0;   line-height: 3rem; }
 #cos .col-6:last-child .btn{    padding: 1rem !important;   left: 80px; }
 #cos .col-6:last-child img:last-child{  right: 40px;    }
 
+/* How it works */
+#hiw .container-lg::after, #hiw .container-lg::before{  transform: scale(0.9) translate(-50%, -50%) !important; left: 33%;  }
+#hiw .container-lg::before{ left: 65.5%;  }
+/* Steps */
+#hiw .container-lg .cart{   right: 60px;    }
+#hiw .container-lg .it-cnt{ right: 50px;    }
+#hiw .container-lg .google{ left: 40px; }
+#hiw .container-lg .apple{  right: 60px;    }
+#hiw .container-lg .prf-1{  left: 50px; }
+#hiw .container-lg .prf-2{  right: 40px;    top: 100px; }
 
 /* Simple Checkout */
 /* Left */
@@ -286,6 +290,25 @@ h1,h2{  font-size: 35px;    margin: 0;   line-height: 2.5rem;   padding-right: 2
 #aboutus .col-6:last-child{    padding: 0 80px;  }
 #aboutus .col-6:last-child .btn{    font-size: 0.9rem;  width: 45px;    } 
 #aboutus .col-6:last-child img:last-child{  right: 50px;    }
+
+
+/*  How it Starts */
+#hiw .container-lg::after, #hiw .container-lg::before{  transform: translate(-50%, -50%) scale(0.7) !important; top: 30%;   left: 34%;  }
+#hiw .container-lg::before{ left: 66%;  }
+#hiw .container-lg .auto{   height: 150px;  width: 150px;   }
+/* Steps */
+#hiw .container-lg .auto ~ h4{  font-size: 0.8rem !important;   margin-top: 20px;}
+#hiw .container-lg .auto ~ p{   padding: 0 !important;  }
+/* Step 1 */
+#hiw .container-lg .cart{   transform: scale(0.8);  right: 30px;    top: 10px;  }
+#hiw .container-lg .it-cnt{ transform: scale(0.9);   right: 20px;   top: 5px;   }
+
+/* Step 2 */
+#hiw .container-lg .google{ transform: scale(0.8); left: 25px;  top: 20px; }
+#hiw .container-lg .apple{  transform: scale(0.8); right: 50px; top: 5px;   }
+/* Step 3 */
+#hiw .container-lg .prf-1{  transform: scale(0.8);  left: 20px; }
+#hiw .container-lg .prf-2{  transform: scale(0.8);  top: 70px;  right: 20px;    }
 
 
 /* Simple Checkout */
