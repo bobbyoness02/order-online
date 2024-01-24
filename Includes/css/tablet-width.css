@@ -33,6 +33,18 @@
     #supportus .row .col-6:last-child{  padding: 5vw 2vw;   }
 
 
+        /* Call our Store */
+        #cos::before{   width: calc(576px + 30px) !important;   height: 100%;}
+        /* Left */
+        #cos .col-6:first-child::before{    font-size: 5rem;    top: 15%;   }
+        #cos .col-6:first-child h2{    padding-right: 0 !important; font-size: 30px;    margin-bottom: 15px;    line-height: 2rem;  }
+        #cos .col-6:first-child p{  padding: 0 !important;  }
+        /* Right */
+        #cos .col-6:last-child{ padding: 0 6%;  }
+        #cos .col-6:last-child .btn{    font-size: 0.6rem;  width: 40px;    right: -10px;   }
+        #cos .col-6:last-child img:last-child{  left: 30px !important;  }
+
+
     /* Footer */
     footer .container > .row:first-child{   display: block; }
     footer .container > .row:first-child .col-6{    width: 100%;    }

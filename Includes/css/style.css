@@ -25,19 +25,20 @@ header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-i
 #hero-bnr .col-6:last-child img:nth-child(4){   height: 40px;   width: 40px;    object-fit: cover;  object-view-box: inset(0 50px 0 0); bottom: 130px;  right: 15%;}
 
 
-/* About Us */
-#aboutus::before{   content: "";    height: 90%;   width: 1440px;    background: #35b9be22;    position: absolute; top: 48%;   left: 50%; -webkit-clip-path: polygon(0 10%, 100% 5%, 100% 100%, 0% 100%);  clip-path: polygon(0 10%, 100% 5%, 100% 100%, 0% 100%);   transform: translate(-50%, -50%);   }
+/* About Us  and Call Our Store*/
+#aboutus::before, #cos::before{   content: "";    height: 90%;   width: 1440px;    background: #35b9be22;    position: absolute; top: 48%;   left: 50%; -webkit-clip-path: polygon(0 10%, 100% 5%, 100% 100%, 0% 100%);  clip-path: polygon(0 10%, 100% 5%, 100% 100%, 0% 100%);   transform: translate(-50%, -50%);   }
 /* Left */
-#aboutus .col-6:first-child{   z-index: 10;}
-#aboutus .col-6:first-child::before{    position: absolute; content: "yumyum";  z-index: -1;    color: #fff;    font-size: 12rem;    font-family: Seaweed Script;  transform: rotate(-15deg); top: -15%;   left: 5%;    font-weight: 500;}
+#aboutus .col-6:first-child h2{ padding-right: 200px !important;    }
+#aboutus .col-6:first-child, #cos .col-6:first-child{   z-index: 10;    }
+#aboutus .col-6:first-child::before, #cos .col-6:first-child::before{    position: absolute; content: "yumyum";  z-index: -1;    color: #fff;    font-size: 12rem;    font-family: Seaweed Script;  transform: rotate(-15deg); top: -15%;   left: 5%;    font-weight: 500;}
 
 /* Right */
-#aboutus .col-6:last-child{ padding: 0 120px;   }
-#aboutus .col-6:last-child img:first-child{ border-radius: 20px;    object-view-box: inset(25px);   }
-#aboutus .col-6:last-child .btn{    word-wrap: break-word;  width: 50px;    transform: translate(-50%, -50%);   left: 120px;    font-size: 1.1rem;  border: none;   }
-#aboutus .col-6:last-child .btn:is(:hover, :focus){ letter-spacing: normal; }
-#aboutus .col-6:last-child .btn::after{ content: url(/assets/party-confetti-dark.svg);  height: auto;  width: 150px;    top: 50%;   left: 50%;  transform: translate(-50%, -50%) }
-#aboutus .col-6:last-child img:last-child{  bottom: 20%;    height: 8vw;   width: 8vw;   object-fit: cover; right: 60px;   object-view-box:inset(0 -20% 0 0);   }
+#aboutus .col-6:last-child, #cos .col-6:last-child{ padding: 0 120px;   }
+#aboutus .col-6:last-child img:first-child, #cos .col-6:last-child img:first-child{ border-radius: 20px;    object-view-box: inset(25px);   }
+#aboutus .col-6:last-child .btn, #cos .col-6:last-child .btn{    word-wrap: break-word;  width: 50px;    transform: translate(-50%, -50%);   left: 120px;    font-size: 1.1rem;  border: none;   }
+#aboutus .col-6:last-child .btn:is(:hover, :focus), #cos .col-6:last-child .btn:is(:hover, :focus){ letter-spacing: normal; }
+#aboutus .col-6:last-child .btn::after, #cos .col-6:last-child .btn::after{ content: url(/assets/party-confetti-dark.svg);  height: auto;  width: 150px;    top: 50%;   left: 50%;  transform: translate(-50%, -50%) }
+#aboutus .col-6:last-child img:last-child, #cos .col-6:last-child img:last-child{  bottom: 20%;    height: 8vw;   width: 8vw;   object-fit: cover; right: 60px;   object-view-box:inset(0 -20% 0 0);   }
 
 
 
@@ -62,19 +63,20 @@ header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-i
 #hiw .container-lg .prf-2 img{  object-fit: cover;  height: 100%;   }
 
 
+/* Call Our Store */
+/* Left */
+#cos .col-6:first-child h2{ font-size: 55px;    }
+#cos .col-6:first-child .btn{   width: 12vw;}
+/* Right */
+#cos .col-6:last-child .btn{    top: auto;  bottom: -10%;    left: auto; right: 70px;    }
+#cos .col-6:last-child img:last-child{  right: auto;    left: 120px;    top: 50%;   transform: translate(-50%, -50%);}
+
 /* Support Us */
 #supportus .btn::before, #supportus .btn::after{    content: "";    background: transparent;    }
 #supportus .row .col-6{ padding-left: 0; padding-right: 0;  width: calc(50% - 1%);}
 #supportus .container-fluid{    width: 100%;    max-width: 1799px;  margin: auto;   }
 #supportus .row .col-6:last-child{  padding: 10vw 2vw;    }
 #supportus .btn{    width: 120px;   margin-top: 3vw;}
-
-
-
-
-
-
-
 
 
 
@@ -105,6 +107,15 @@ footer .builtby .sm-icons:hover a:not(:hover){  background: transparent;  color:
 
 
 /* Desktop Width Responsive */
+@media (min-width: 1399px){
+
+    /* Support us */
+    #supportus .row .col-6:last-child{  padding: 8vw 2vw;    }
+}
+
+
+
+
 @media (max-width: 1399px){
 body{   font-size: 0.9rem;  }
 h1,h2{  font-size: 50px;    margin: 0;   line-height: 3.5rem;   padding-right: 100px !important;    }
@@ -119,6 +130,7 @@ h1,h2{  font-size: 50px;    margin: 0;   line-height: 3.5rem;   padding-right: 1
 #aboutus{   padding: 75px 0 !important; }
 #aboutus::before{   width: 1199px;  }
 /* Left */
+#aboutus .col-6:first-child h2{ padding-right: 150px !important;    }
 #aboutus .col-6:first-child::before{    font-size: 10rem;   }
 /* Right */
 #aboutus .col-6:last-child{    padding: 0 120px;  }
@@ -140,10 +152,20 @@ h1,h2{  font-size: 50px;    margin: 0;   line-height: 3.5rem;   padding-right: 1
 #hiw .container-lg .prf-2{  height: 50px;   width: 50px;    }
 #hiw .container-lg .prf-2 img{  object-position: center;    }
 
+/* Call Our Store */
+#cos{   padding: 75px 0 !important; }
+#cos::before{   width: 1199px;  }
+/* Left */
+#cos .col-6:first-child h2{ font-size: 50px;    }
+#cos .col-6:first-child .btn{   width: 14vw;    }
+#cos .col-6:first-child::before{    font-size: 10rem;   }
+/* Right */
+#aboutus .col-6:last-child{    padding: 0 120px;  }
+#aboutus .col-6:last-child img:last-child{  right: 80px;    }
+
 /* Footer */
 footer{ font-size: 0.9rem !important;   }
 footer .col-6:first-child .fa-solid ~ p {    padding-right: 200px !important;   }
-
 
 }
 
@@ -189,6 +211,7 @@ h1,h2{  font-size: 45px;    margin: 0;   line-height: 3rem; }
 #aboutus{   padding: 50px 0 !important; }
 #aboutus::before{   width: 992px;  height: 95%;}
 /* Left */
+#aboutus .col-6:first-child h2{ padding-right: 100px !important;    }
 #aboutus .col-6:first-child::before{    font-size: 8rem;   top: 0%;    }
 /* Right */
 #aboutus .col-6:last-child{    padding: 0 80px;  }
@@ -202,6 +225,23 @@ h1,h2{  font-size: 45px;    margin: 0;   line-height: 3rem; }
 #hiw .row{  display: block !important;  }
 #hiw .row .col-4{   width: 100%;    padding-right: 50vw;    }
 
+/* About Us */
+#cos{   padding: 50px 0 !important; }
+#cos::before{   width: 992px;  height: 95%;}
+/* Left */
+#cos .col-6:first-child h2{ font-size: 40px;    }
+#cos .col-6:first-child .btn{   width: 14vw;    }
+#cos .col-6:first-child::before{    font-size: 8rem;   top: 0%;    }
+/* Right */
+#cos .col-6:last-child{    padding: 0 80px;  }
+#cos .col-6:last-child .btn{    padding: 1rem !important;   left: 80px; }
+#cos .col-6:last-child img:last-child{  right: 40px;    }
+
+/* Call Our Store */
+/* Left */
+/* Right */
+#cos .col-6:last-child img:last-child{  left: 80px !important;  right: auto;    object-view-box: none; }
+#cos .col-6:last-child .btn{    left: auto; right: 30px;    bottom: -15%;   }
 
 /* Support Us */
 #supportus .btn{    padding: 0.5rem 1rem !important;   }
@@ -257,5 +297,6 @@ h1,h2{  font-size: 35px;    margin: 0;   line-height: 2.5rem;   padding-right: 2
 #aboutus .col-6:last-child{    padding: 0 80px;  }
 #aboutus .col-6:last-child .btn{    font-size: 0.9rem;  width: 45px;    } 
 #aboutus .col-6:last-child img:last-child{  right: 50px;    }
+
 
 }
