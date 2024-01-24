@@ -18,6 +18,10 @@
     #cos .col-6:first-child p{  font-size: 0.6rem;  margin-bottom: 10px;    }
     #cos .col-6:first-child .btn{   width: 22vw;    }
 
+    /* Simple Checkout  */
+    #simp-ckt .col-6:last-child h2{ padding-right: 50px !important;    }
+    #simp-ckt .col-6:last-child p{  padding-right: 100px !important;    }
+
     /* Support Us */
     #supportus h2{  font-size: 2rem;    }
 

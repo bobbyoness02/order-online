@@ -62,6 +62,14 @@ header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-i
 #hiw .container-lg .prf-2{  height: 60px;   width: 60px;    border: 4px solid #fff; top: 130px;   right: 70px;   }
 #hiw .container-lg .prf-2 img{  object-fit: cover;  height: 100%;   }
 
+/* Simple Checkout */
+#simp-ckt .col-6 .card::before{  content: url(/assets/party-confetti.svg); position: absolute;   top: 0;  left: 0;    transform: translate(-50%, -50%) scale(0.8);}
+#simp-ckt .col-6:first-child .card{ width: 100%;    max-width:  270px; max-height: 300px;    z-index: 49;}
+#simp-ckt .col-6:first-child .card img:first-child{ height: 130px;  object-fit: cover;  }
+#simp-ckt .col-6:first-child .card p{   font-size: 0.7rem;  }
+#simp-ckt .col-6:first-child .card img:last-child{  height: 20%;  border: 3px solid #fff; object-fit: cover;}
+#simp-ckt .col-6:first-child  > img{    width: 30%;    }
+
 
 /* Call Our Store */
 /* Left */
@@ -152,6 +160,13 @@ h1,h2{  font-size: 50px;    margin: 0;   line-height: 3.5rem;   padding-right: 1
 #hiw .container-lg .prf-2{  height: 50px;   width: 50px;    }
 #hiw .container-lg .prf-2 img{  object-position: center;    }
 
+/* Simple Checkout */
+/* Left */
+#simp-ckt .col-6:first-child > img{ width: 40%; }
+/* Right */
+#simp-ckt .col-6:last-child  h2{    padding: 0 !important;  }
+#simp-ckt .col-6:last-child  p{ padding-right: 25px !important;  }
+
 /* Call Our Store */
 #cos{   padding: 75px 0 !important; }
 #cos::before{   width: 1199px;  }
@@ -168,22 +183,6 @@ footer{ font-size: 0.9rem !important;   }
 footer .col-6:first-child .fa-solid ~ p {    padding-right: 200px !important;   }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -227,7 +226,7 @@ h1,h2{  font-size: 45px;    margin: 0;   line-height: 3rem; }
 
 /* About Us */
 #cos{   padding: 50px 0 !important; }
-#cos::before{   width: 992px;  height: 95%;}
+#cos::before{   width: 768px;  height: 95%;}
 /* Left */
 #cos .col-6:first-child h2{ font-size: 40px;    }
 #cos .col-6:first-child .btn{   width: 14vw;    }
@@ -236,6 +235,12 @@ h1,h2{  font-size: 45px;    margin: 0;   line-height: 3rem; }
 #cos .col-6:last-child{    padding: 0 80px;  }
 #cos .col-6:last-child .btn{    padding: 1rem !important;   left: 80px; }
 #cos .col-6:last-child img:last-child{  right: 40px;    }
+
+
+/* Simple Checkout */
+/* Left */
+#simp-ckt .col-6:first-child > img{ width: 45%; }
+
 
 /* Call Our Store */
 /* Left */
@@ -251,21 +256,6 @@ h1,h2{  font-size: 45px;    margin: 0;   line-height: 3rem; }
 footer{ font-size: 0.9rem !important;   }
 footer .col-6:first-child .fa-solid ~ p {    padding-right: 80px !important;   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media (max-width: 992px){
@@ -292,11 +282,14 @@ h1,h2{  font-size: 35px;    margin: 0;   line-height: 2.5rem;   padding-right: 2
 /* Left */
 #aboutus .col-6:first-child::before{    font-size: 6rem;   top: 0%; }
 #aboutus .col-6:first-child p{  padding-right: 0 !important;}
-
 /* Right */
 #aboutus .col-6:last-child{    padding: 0 80px;  }
 #aboutus .col-6:last-child .btn{    font-size: 0.9rem;  width: 45px;    } 
 #aboutus .col-6:last-child img:last-child{  right: 50px;    }
+
+
+/* Simple Checkout */
+#simp-ckt .col-6:first-child .card{ transform: translate(-50%, -50%) scale(0.8) !important;   }
 
 
 }
