@@ -23,4 +23,17 @@
     #aboutus .col-6:last-child{ padding: 0 6%;  }
     #aboutus .col-6:last-child .btn{    font-size: 0.6rem;  width: 40px;    left: 30px;}
     #aboutus .col-6:last-child img:last-child{  right: 10px;    }
+
+
+    /* Supportus */
+    #supportus .container-fluid{    width: 100%;    max-width: 576px;}
+    #supportus .row{    flex-direction: column; }
+    #supportus .row .col-6{ width: 100%;    }
+
+
+    /* Footer */
+    footer .container > .row:first-child{   display: block; }
+    footer .container > .row:first-child .col-6{    width: 100%;    }
+    footer .col-6:first-child .fa-solid ~ p{    padding: 0 !important;  }
+    footer .container > .row:first-child .col-6:last-child{ margin-top: 50px;   }
 }

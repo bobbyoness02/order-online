@@ -15,7 +15,8 @@ body{   margin: 0;  padding: 0; overflow-x: hidden;   cursor: default;    positi
 
 /* Font Colors */
 .clr-primary{   color: #35b9be !important;  }
-.clr-darkgreen{  color: #22311d}
+.clr-darkgreen{  color: #22311d !important; }
+.clr-teal{  color: #007e83 !important;  }
 
 /* Font Family */
 .ft-primary{    font-family: poppins;   }

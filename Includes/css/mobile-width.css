@@ -9,4 +9,8 @@
     #aboutus .col-6:first-child::before{    font-size: 4rem;    }
     #aboutus .col-6:first-child h2{    font-size: 1.3rem;  line-height: 1.3rem; margin-bottom: 10px;    padding-right: 60px !important;    }
     #aboutus .col-6:first-child p{  font-size: 0.6rem;  margin-bottom: 10px;    }
+
+    /* Footer */
+    footer .row:first-child .col-6:last-child{   display: grid; grid-template-columns: auto auto;   gap: 30px;  }
+    footer .row:first-child .col-6:last-child .col-4{   width: 100%;    }
 }   
