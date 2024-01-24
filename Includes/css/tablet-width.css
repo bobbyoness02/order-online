@@ -26,9 +26,11 @@
 
 
     /* Supportus */
-    #supportus .container-fluid{    width: 100%;    max-width: 576px;}
+    #supportus{ padding: 25px !important;   }
+    #supportus .container-fluid{    width: 100%;    max-width: 576px;   }
     #supportus .row{    flex-direction: column; }
     #supportus .row .col-6{ width: 100%;    }
+    #supportus .row .col-6:last-child{  padding: 5vw 2vw;   }
 
 
     /* Footer */
