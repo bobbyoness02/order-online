@@ -2,6 +2,7 @@
 
     body{   font-size: 0.7rem;  }
     /* Header */
+    header {    z-index: 999 !important;    }
     /* Header Bottom */
     header .container .desktop-nav{    display: none;  }
     header .row .cart{  padding: 5px 10px;  }
@@ -26,7 +27,6 @@
 
     /* How it works */
     #hiw{   padding: 50px 0 !important; }
-
     #hiw .container-lg::after{  content: "";}
     #hiw .container-lg::before{ content: "";    width: 3px; background: #22311d;    height: 140%;   border-radius: 50px;    top: 50%;   left: 50%; transform: translate(-50%, -50%);   }    
     #hiw .row .col-4{   width: 50%;       margin-right: 50%;  }
@@ -36,6 +36,11 @@
     #hiw .container-lg .it-cnt{ right: auto;    left: 205px;    }
     #hiw .row .col-4:first-child ~ .col-4{    margin-top: -100px;  }
     #hiw .row .col-4 img::after{content: "1";   color: #ffffff;    background: #22311d; position: absolute; top: 0; left: 0;    z-index: 5; height: 100%;   width: 100%;    font-size: 60px;    }
+
+
+    /* Browser our Menu */
+    #menu .container > .d-grid{ grid-template-columns: auto;    margin-top: 50px !important;    }
+    #menu .d-grid .g-col-6 .g-col-4 .row:first-child{   flex-direction: row;    align-items: center !important; }
 
 
 

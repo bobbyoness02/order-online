@@ -42,29 +42,29 @@ body{   margin: 0;  padding: 0; overflow-x: hidden;   cursor: default;    positi
 .py-75{  padding-top: 75px !important;   padding-bottom: 75px !important;   }
 .py-100{ padding-top: 100px !important;  padding-bottom: 100px !important;  }
 /* Start */
-.ps-0{   padding-left: 0;    }
-.ps-25{   padding-left: 25px;    }
-.ps-50{   padding-left: 50px;    }
-.ps-75{ padding-left: 75px; }
-.ps-100{    padding-left: 100px;   }
+.ps-0{   padding-left: 0 !important;    }
+.ps-25{   padding-left: 25px !important;    }
+.ps-50{   padding-left: 50px !important;    }
+.ps-75{ padding-left: 75px !important; }
+.ps-100{    padding-left: 100px !important;   }
 /* End */
-.pe-0{   padding-right: 0;    }
-.pe-25{   padding-right: 25px;    }
-.pe-50{   padding-right: 50px;    }
-.pe-75{ padding-right: 75px; }
-.pe-100{    padding-right: 100px;   }
+.pe-0{   padding-right: 0 !important;    }
+.pe-25{   padding-right: 25px !important;    }
+.pe-50{   padding-right: 50px !important;    }
+.pe-75{ padding-right: 75px !important; }
+.pe-100{    padding-right: 100px !important;   }
 /* Top */
-.pt-0{   padding-top: 0;    }
-.pt-25{   padding-top: 25px;    }
-.pt-50{   padding-top: 50px;    }
-.pt-75{ padding-top: 75px; }
-.pt-100{    padding-top: 100px;   }
+.pt-0{   padding-top: 0 !important;    }
+.pt-25{   padding-top: 25px !important;    }
+.pt-50{   padding-top: 50px !important;    }
+.pt-75{ padding-top: 75px !important; }
+.pt-100{    padding-top: 100px !important;   }
 /* Bottom */
-.pb-0{   padding-bottom: 0;    }
-.pb-25{   padding-bottom: 25px;    }
-.pb-50{   padding-bottom: 50px;    }
-.pb-75{ padding-bottom: 75px; }
-.pb-100{    padding-bottom: 100px;   }
+.pb-0{   padding-bottom: 0 !important;    }
+.pb-25{   padding-bottom: 25px !important;    }
+.pb-50{   padding-bottom: 50px !important;    }
+.pb-75{ padding-bottom: 75px !important; }
+.pb-100{    padding-bottom: 100px !important;   }
 
 /* margin */
 .m-0{    margin: 0 !important;  }
@@ -85,29 +85,29 @@ body{   margin: 0;  padding: 0; overflow-x: hidden;   cursor: default;    positi
 .my-75{  margin-top: 75px !important;   margin-bottom: 75px !important;   }
 .my-100{ margin-top: 100px !important;  margin-bottom: 100px !important;  }
 /* Start */
-.ms-0{   margin-left: 0;    }
-.ms-25{   margin-left: 25px;    }
-.ms-50{   margin-left: 50px;    }
-.ms-75{ margin-left: 75px;  }
-.ms-100{ margin-left: 100px;  }
+.ms-0{   margin-left: 0 !important;    }
+.ms-25{   margin-left: 25px !important;    }
+.ms-50{   margin-left: 50px !important;    }
+.ms-75{ margin-left: 75px !important;  }
+.ms-100{ margin-left: 100px !important;  }
 /* End */
-.me-0{   margin-right: 0;    }
-.me-25{   margin-right: 25px;    }
-.me-50{   margin-right: 50px;    }
-.me-75{ margin-right: 75px;  }
-.me-100{ margin-right: 100px;  }
+.me-0{   margin-right: 0 !important;    }
+.me-25{   margin-right: 25px !important;    }
+.me-50{   margin-right: 50px !important;    }
+.me-75{ margin-right: 75px !important;  }
+.me-100{ margin-right: 100px !important;  }
 /* Top */
-.mt-0{   margin-top: 0;    }
-.mt-25{   margin-top: 25px;    }
-.mt-50{   margin-top: 50px;    }
-.mt-75{ margin-top: 75px;  }
-.mt-100{ margin-top: 100px;  }
+.mt-0{   margin-top: 0 !important;    }
+.mt-25{   margin-top: 25px !important;    }
+.mt-50{   margin-top: 50px !important;    }
+.mt-75{ margin-top: 75px !important;  }
+.mt-100{ margin-top: 100px !important;  }
 /* Bottom */
-.mb-0{   margin-bottom: 0;    }
-.mb-25{   margin-bottom: 25px;    }
-.mb-50{   margin-bottom: 50px;    }
-.mb-75{ margin-bottom: 75px;  }
-.mb-100{ margin-bottom: 100px;  }
+.mb-0{   margin-bottom: 0 !important;    }
+.mb-25{   margin-bottom: 25px !important;    }
+.mb-50{   margin-bottom: 50px !important;    }
+.mb-75{ margin-bottom: 75px !important;  }
+.mb-100{ margin-bottom: 100px !important;  }
 
 /* Font Weight */
 .fw-500{    font-weight: 500;   }
@@ -135,7 +135,7 @@ a{  text-decoration: none;  color: #22311d; }
 .bs-style-1{    box-shadow: 0px 0px 5px 0px #22311d88;    }
 
 /* Container */
-.container{ padding-left: 0;    padding-right: 0;  margin: auto;    position: relative; z-index: 10;}
+.container{ padding-left: 0;    padding-right: 0;  margin: auto !important; }
 
 /* Font Size */
 h1,h2{ font-size: 60px;    margin: 0;   line-height: 4rem;  font-family: inter;}

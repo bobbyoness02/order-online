@@ -1,5 +1,4 @@
 /* Header */
-header{ z-index: 999;   }
 /* Header Bottom */
 header .logo{   color: #35b9be; }
 header .row .cart{  padding: 10px 15px; }
@@ -7,10 +6,10 @@ header .row .cart .fa-solid{  color: #fff;  }
 header .row .cart .it-cnt{  top: -10px ;    right: -10px;   padding: 2px 5px;    }
 /* Mobile Nav */
 header .mobile-nav{ display: none;  }
-header .mobile-nav .list-items{ top: 100%;  z-index: 499;    left: -4%;    width: 100vw;   margin-top: -300px; }
+header .mobile-nav .list-items{ top: 100%;  z-index: 499;    left: 0%;    width: 100vw;   margin-top: -300px; }
 header .mobile-nav .list-items .list-item{  border-bottom: 2px solid #35b9be;   }
 header .mobile-nav .list-items .list-item a:is(:hover, :focus, :active){ color: #35b9be; }
-header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-items{ margin-top: 0;  transition: 0.5s;   }
+header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-items{ margin-top: 0;  transition: 0.5s;   z-index: 499;}
 
 
 /* Hero Bannner */
@@ -61,6 +60,24 @@ header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-i
 #hiw .container-lg .prf-1 img{  object-fit: cover; height: 100%;    object-position: -20px -5px;   }
 #hiw .container-lg .prf-2{  height: 60px;   width: 60px;    border: 4px solid #fff; top: 130px;   right: 70px;   }
 #hiw .container-lg .prf-2 img{  object-fit: cover;  height: 100%;   }
+
+/* Browse Our Menu  */
+#menu .container .menu-sections{    width: 75%; }
+#menu .container .menu-sections .btn{   border: 2px solid transparent;  }
+#menu .container .menu-sections:hover .d-btn:hover{   border: 2px solid #35b9be;    }    
+#menu .container .menu-sections:hover .d-btn:not(:hover){   border: 2px solid #35b9be;  background: transparent;    color: #22311d !important;  font-weight: 600;   }
+#menu .container .menu-sections:hover .d-btn:not(:hover)::before{   content: ""; background: transparent;   }
+#menu .container .menu-sections:hover .d-btn:not(:hover)::after{    content: "";    background: transparent;    }
+#menu .container > .d-grid{ gap: 30px;  box-sizing: border-box; grid-template-columns: auto auto;    }
+#menu .d-grid .g-col-6{  border-radius: 8px; border: 2px solid #35b9be;  box-sizing: border-box; width: 100%;   margin-left: 0; justify-content: space-between; grid-template-columns: 100px auto;}
+#menu .d-grid .g-col-6 .g-col{padding: 0; border-radius: 10px; overflow: hidden;}
+#menu .d-grid .g-col-6 .g-col img{  height: 100px;  width: 100px;   object-fit: cover;}
+#menu .d-grid .g-col-6 .g-col-4{   padding: 0; width: 90%; margin-left: auto;   }
+#menu .d-grid .g-col-6 .g-col-4 .row{   flex-wrap: nowrap;   }
+
+#menu .d-grid .g-col-6 .g-col-4 p{    font-size: 0.9em !important;      padding-right: 50px;    }
+#menu .d-grid .g-col-6 .g-col-4 #item-count{    width: 40px;    height: 40px;   border-radius: 5px; border: 2px solid #22311d55;    text-align: center; }
+#menu .d-grid .g-col-6 .g-col-4 .btn{   width: 150px !important;    margin-left: 10px;  }
 
 /* Simple Checkout */
 #simp-ckt .col-6 .card::before{  content: url(/assets/party-confetti.svg); position: absolute;   top: 0;  left: 0;    transform: translate(-50%, -50%) scale(0.8);}
@@ -160,6 +177,9 @@ h1,h2{  font-size: 50px;    margin: 0;   line-height: 3.5rem;   padding-right: 1
 #hiw .container-lg .prf-2{  height: 50px;   width: 50px;    }
 #hiw .container-lg .prf-2 img{  object-position: center;    }
 
+/* Browse our menu*/
+#menu .container h2{    padding: 0 !important;  }
+
 /* Simple Checkout */
 /* Left */
 #simp-ckt .col-6:first-child > img{ width: 40%; }
@@ -183,6 +203,9 @@ footer{ font-size: 0.9rem !important;   }
 footer .col-6:first-child .fa-solid ~ p {    padding-right: 200px !important;   }
 
 }
+
+
+
 
 
 
@@ -217,10 +240,15 @@ h1,h2{  font-size: 45px;    margin: 0;   line-height: 3rem; }
 #aboutus .col-6:last-child .btn{    padding: 1rem !important;   left: 80px; }
 #aboutus .col-6:last-child img:last-child{  right: 40px;    }
 
+/* Browse Our Menu */
+#menu .d-grid .g-col-6 .g-col-4 p{  padding-right: 25px;   }
+#menu .d-grid .g-col-6 .g-col-4 .btn{   padding: 0.7rem !important;    width: 120px !important; }
+#menu .d-grid .g-col-6 .g-col-4 .row:first-child{   flex-wrap: wrap;   flex-direction: column;  align-items: start !important;  }
+#menu .d-grid .g-col-6 .g-col-4 .row h6{    font-size: 1rem !important;  margin-bottom: 5px !important;    }
 
-/* About Us */
+/* Call our service store */
 #cos{   padding: 50px 0 !important; }
-#cos::before{   width: 768px;  height: 95%;}
+#cos::before{   width: 992px;  height: 95%;}
 /* Left */
 #cos .col-6:first-child h2{ font-size: 40px;    }
 #cos .col-6:first-child .btn{   width: 14vw;    }
@@ -260,6 +288,9 @@ h1,h2{  font-size: 45px;    margin: 0;   line-height: 3rem; }
 footer{ font-size: 0.9rem !important;   }
 footer .col-6:first-child .fa-solid ~ p {    padding-right: 80px !important;   }
 }
+
+
+
 
 
 @media (max-width: 992px){

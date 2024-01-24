@@ -18,6 +18,9 @@
     #cos .col-6:first-child p{  font-size: 0.6rem;  margin-bottom: 10px;    }
     #cos .col-6:first-child .btn{   width: 22vw;    }
 
+    /* Browse our menu */
+    #menu .container > .d-grid{ grid-template-columns: auto;    margin-top: 25px !important;    }
+
     /* Simple Checkout  */
     #simp-ckt .col-6:last-child h2{ padding-right: 50px !important;    }
     #simp-ckt .col-6:last-child p{  padding-right: 100px !important;    }
