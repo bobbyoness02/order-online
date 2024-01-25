@@ -42,7 +42,7 @@ header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-i
 #aboutus .col-6:last-child img:first-child, #cos .col-6:last-child img:first-child{ border-radius: 20px;    object-view-box: inset(25px);   }
 #aboutus .col-6:last-child .btn, #cos .col-6:last-child .btn{    word-wrap: break-word;  width: 50px;    transform: translate(-50%, -50%);   left: 120px;    font-size: 1.1rem;  border: none;   padding: 20px !important; }
 #aboutus .col-6:last-child .btn:is(:hover, :focus), #cos .col-6:last-child .btn:is(:hover, :focus){ letter-spacing: normal; }
-#aboutus .col-6:last-child .btn::after, #cos .col-6:last-child .btn::after{ content: url(/assets/party-confetti-dark.svg);  height: auto;  width: 150px;    top: 50%;   left: 50%;  transform: translate(-50%, -50%) }
+#aboutus .col-6:last-child .btn::after, #cos .col-6:last-child .btn::after{ content: url(https://raw.githubusercontent.com/bobbyoness02/order-online/fe28092eb46b0dafe3464247b38730b7a2bd30b0/assets/party-confetti-dark.svg);  height: auto;  width: 150px;    top: 50%;   left: 50%;  transform: translate(-50%, -50%) }
 #aboutus .col-6:last-child img:last-child, #cos .col-6:last-child img:last-child{  bottom: 20%;    height: 8vw;   width: 8vw;   object-fit: cover; right: 60px;   object-view-box:inset(0 -20% 0 0);   }
 
 
