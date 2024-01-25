@@ -18,7 +18,14 @@
     #cos .col-6:first-child p{  font-size: 0.6rem;  margin-bottom: 10px;    }
     #cos .col-6:first-child .btn{   width: 22vw;    }
 
+    /* How it works */
+    #hiw{   padding: 25px 0 !important; }
+    #hiw .container-lg .auto ~ p{   padding: 0 !important;  }
+
     /* Browse our menu */
+    #menu{  padding: 25px 0 !important; }
+    #menu .container > p{   width: 75% !important; }
+    #menu .container .menu-sections{    flex-wrap: nowrap;  width: 100%;    }
     #menu .container > .d-grid{ grid-template-columns: auto;    margin-top: 25px !important;    }
 
     /* Simple Checkout  */

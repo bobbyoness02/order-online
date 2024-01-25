@@ -13,12 +13,12 @@ header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-i
 
 
 /* Hero Bannner */
-#hero-bnr::before{  content: "";    background: #35b9be;    position: absolute; height: 100%;   width: 100%;    -webkit-clip-path: ellipse(50% 70% at 100% 0%); clip-path: ellipse(50% 70% at 100% 0%); top: 0; right: 0;   opacity: 0.2;   z-index: 1;}
+#hero-bnr::before{  content: "";    background: #35b9be;    position: absolute; height: 100%;   width: 100%;    -webkit-clip-path: ellipse(50% 70% at 100% 0%); clip-path: ellipse(50% 70% at 100% 0%); top: 0; right: 0;   opacity: 0.2;   z-index: -2;}
 /* Left */
 #hero-bnr .col-6 .tp-logo{  height: 50px;   width: 50px;    margin-left: -10px; }
 /* Right */
 #hero-bnr .col-6:last-child{    padding: 0 12% 0 6%;   }
-#hero-bnr .col-6 .bnr-main-img{ border-radius: 120px 30px;  }
+#hero-bnr .col-6 .bnr-main-img{ border-radius: 100px 30px;  }
 #hero-bnr .col-6:last-child img:nth-child(2){   height: 15rem;  width: 15rem;   bottom: -50px;  right: 80px;    object-fit: cover;  object-position: top;   }
 #hero-bnr .col-6:last-child img:nth-child(3){   height: 80px;  bottom: 60px;  right: 270px;    object-view-box: inset(20px);   }
 #hero-bnr .col-6:last-child img:nth-child(4){   height: 40px;   width: 40px;    object-fit: cover;  object-view-box: inset(0 50px 0 0); bottom: 130px;  right: 15%;}
@@ -54,7 +54,7 @@ header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-i
 #hiw .container-lg .google{ height: auto;   width: 60px;    left: 80px; top: 50px;  }
 #hiw .container-lg .google img{ object-view-box: inset(10%);  }
 #hiw .container-lg .apple{  height: 40px;   width: 40px;    top: 20px;  right: 110px;   }
-#hiw .container-lg .apple img{  object-fit: cover;  width: 40px;    height: 40px;       object-position: -11px -3px;    }
+#hiw .container-lg .apple img{  object-fit: cover;  width: 40px;    height: 40px;       object-position: center;    }
 /* step 3 */
 #hiw .container-lg .prf-1{  height: 100px;  width: 100px;   left: 60px; border: 4px solid #fff;   }
 #hiw .container-lg .prf-1 img{  object-fit: cover; height: 100%;    object-position: -20px -5px;   }

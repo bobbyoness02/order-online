@@ -39,16 +39,17 @@
 
 
     /* Browser our Menu */
+    #menu{  padding:  50px 0 !important;    }
     #menu .container > .d-grid{ grid-template-columns: auto;    margin-top: 50px !important;    }
     #menu .d-grid .g-col-6 .g-col-4 .row:first-child{   flex-direction: row;    align-items: center !important; }
 
 
 
     /* Simple Checkout */
-    #simp-ckt{  padding: 50px 0 !important; }
+    #simp-ckt{  padding: 50px 0 100px !important; }
     #simp-ckt .row{ flex-direction: column-reverse; align-items: start !important;  }
     #simp-ckt .row .col-6{  width: 100%;       }
-    #simp-ckt .row .col-6:first-child{   height: 50vh;   width: 100%;    margin-left: 20%;  }
+    #simp-ckt .row .col-6:first-child{   height: 60vh;   width: 100%;    margin-left: 10%;  }
     #simp-ckt .row .col-6:first-child > img{    width: 40%;}
     #simp-ckt .row .col-6:first-child .card{  transform: translate(-50%, -50%) scale(1) !important;   }
     #simp-ckt .col-6:last-child h2{ padding-right: 10% !important;  }  
@@ -67,7 +68,7 @@
     #cos .col-6:last-child img:last-child{  left: 30px !important;  }
 
     /* Supportus */
-    #supportus{ padding: 25px !important;   }
+    #supportus{ padding: 25px 0 !important;   }
     #supportus .container-fluid{    width: 100%;    max-width: 576px;   }
     #supportus .row{    flex-direction: column; }
     #supportus .row .col-6{ width: 100%;    }
