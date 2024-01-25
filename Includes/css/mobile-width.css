@@ -1,0 +1,40 @@
+.container{ width: 100%;    max-width: calc(100% - 40px);   margin: auto;   }
+
+/* About Us */
+#aboutus::before{   width: 95% !important; height: 90%;    }
+/* left */
+#aboutus .col-6:first-child::before{    font-size: 4rem;    }
+#aboutus .col-6:first-child h2{    font-size: 1.3rem;  line-height: 1.3rem; margin-bottom: 10px;    padding-right: 60px !important;    }
+#aboutus .col-6:first-child p{  font-size: 0.6rem;  margin-bottom: 10px;    }
+
+/* About Us */
+#cos::before{   width: 95% !important; height: 90%;    }
+/* left */
+#cos .col-6:first-child::before{    font-size: 4rem;    }
+#cos .col-6:first-child h2{    font-size: 1.3rem;  line-height: 1.3rem; margin-bottom: 10px;    padding-right: 60px !important;    }
+#cos .col-6:first-child p{  font-size: 0.6rem;  margin-bottom: 10px;    }
+#cos .col-6:first-child .btn{   width: 22vw;    }
+
+/* How it works */
+#hiw{   padding: 25px 0 !important; }
+#hiw .container-lg .auto ~ p{   padding: 0 !important;  }
+
+/* Browse our menu */
+#menu{  padding: 25px 0 !important; }
+#menu .container > p{   width: 75% !important; }
+#menu .container .menu-sections{    flex-wrap: nowrap;  width: 100%;    }
+#menu .container > .d-grid{ grid-template-columns: auto;    margin-top: 25px !important;    }
+
+/* Simple Checkout  */
+#simp-ckt{  padding: 50px 0px !important; }
+#simp-ckt .col-6:last-child h2{ padding-right: 50px !important;    }
+#simp-ckt .col-6:last-child p{  padding-right: 100px !important;    }
+#simp-ckt .row .col-6:first-child > img{    width: 35%; }
+#simp-ckt .row .col-6:first-child .card{        transform: translate(-50%, -50%) scale(0.9) !important;   }
+
+/* Support Us */
+#supportus h2{  font-size: 2rem;    }
+
+/* Footer */
+footer .row:first-child .col-6:last-child{   display: grid; grid-template-columns: auto auto;   gap: 30px;  }
+footer .row:first-child .col-6:last-child .col-4{   width: 100%;    }

@@ -26,82 +26,55 @@ body{   margin: 0;  padding: 0; overflow-x: hidden;   cursor: default;    positi
 .p-50{  padding: 50px !important;   }
 .p-75{  padding: 75px !important;   }
 .p-100{ padding: 100px !important;  }
-/* X -axis */
-.px-25{   padding-left: 25px !important;    padding-right: 25px !important; }
-.px-50{  padding-left: 50px !important;   padding-right: 50px !important;   }
-.px-75{  padding-left: 75px !important;   padding-right: 75px !important;   }
-.px-100{ padding-left: 100px !important;  padding-right: 100px !important;  }
-/* Y-axis */
-.py-25{   padding-top: 25px !important;    padding-bottom: 25px !important; }
-.py-50{  padding-top: 50px !important;   padding-bottom: 50px !important;   }
-.py-75{  padding-top: 75px !important;   padding-bottom: 75px !important;   }
-.py-100{ padding-top: 100px !important;  padding-bottom: 100px !important;  }
 /* Start */
-.ps-25{   padding-left: 25px !important;    }
-.ps-50{   padding-left: 50px !important;    }
-.ps-75{ padding-left: 75px !important; }
-.ps-100{    padding-left: 100px !important;   }
+.ps-25, .px-25{   padding-left: 25px !important;    }
+.ps-50, .px-50{   padding-left: 50px !important;    }
+.ps-75, .px-75{ padding-left: 75px !important; }
+.ps-100, .px-100{    padding-left: 100px !important;   }
 /* End */
-.pe-25{   padding-right: 25px !important;    }
-.pe-50{   padding-right: 50px !important;    }
-.pe-75{ padding-right: 75px !important; }
-.pe-100{    padding-right: 100px !important;   }
+.pe-25, .px-25{   padding-right: 25px !important;    }
+.pe-50, .px-50{   padding-right: 50px !important;    }
+.pe-75, .px-75{ padding-right: 75px !important; }
+.pe-100, .px-100{    padding-right: 100px !important;   }
 /* Top */
-.pt-25{   padding-top: 25px !important;    }
-.pt-50{   padding-top: 50px !important;    }
-.pt-75{ padding-top: 75px !important; }
+.pt-25, .py-25{   padding-top: 25px !important;    }
+.pt-50,.py-50{   padding-top: 50px !important;    }
+.pt-75, .p-75{ padding-top: 75px !important; }
 .pt-100{    padding-top: 100px !important;   }
 /* Bottom */
-.pb-25{   padding-bottom: 25px !important;    }
-.pb-50{   padding-bottom: 50px !important;    }
-.pb-75{ padding-bottom: 75px !important; }
-.pb-100{    padding-bottom: 100px !important;   }
+.pb-25, .py-25{   padding-bottom: 25px !important;    }
+.pb-50,.py-50{   padding-bottom: 50px !important;    }
+.pb-75, .p-75{ padding-bottom: 75px !important; }
+.pb-100, .p-100{    padding-bottom: 100px !important;   }
 
 /* margin */
 .m-25{   margin: 25px !important;    }
 .m-50{  margin: 50px !important;   }
 .m-75{  margin: 75px !important;    }
 .m-100{ margin: 100px !important;  }
-/* X -axis */
-.mx-25{   margin-left: 25px !important;    margin-right: 25px !important; }
-.mx-50{  margin-left: 50px !important;   margin-right: 50px !important;   }
-.mx-75{ margin-left: 75px !important;   margin-right: 75px !important;}
-.mx-100{ margin-left: 100px !important;  margin-right: 100px !important;  }
-/* Y-axis */
-.my-25{   margin-top: 25px !important;    margin-bottom: 25px !important; }
-.my-50{  margin-top: 50px !important;   margin-bottom: 50px !important;   }
-.my-75{  margin-top: 75px !important;   margin-bottom: 75px !important;   }
-.my-100{ margin-top: 100px !important;  margin-bottom: 100px !important;  }
 /* Start */
-.ms-25{   margin-left: 25px !important;    }
-.ms-50{   margin-left: 50px !important;    }
-.ms-75{ margin-left: 75px !important;  }
-.ms-100{ margin-left: 100px !important;  }
+.ms-25, .mx-25{   margin-left: 25px !important;    }
+.ms-50, .mx-50{   margin-left: 50px !important;    }
+.ms-75, .mx-75{ margin-left: 75px !important;  }
+.ms-100, .mx-100{ margin-left: 100px !important;  }
 /* End */
-.me-25{   margin-right: 25px !important;    }
-.me-50{   margin-right: 50px !important;    }
-.me-75{ margin-right: 75px !important;  }
-.me-100{ margin-right: 100px !important;  }
+.me-25, .mx-25{   margin-right: 25px !important;    }
+.me-50, .mx-50{   margin-right: 50px !important;    }
+.me-75, .mx-75{ margin-right: 75px !important;  }
+.me-100, .mx-100{ margin-right: 100px !important;  }
 /* Top */
-.mt-25{   margin-top: 25px !important;    }
-.mt-50{   margin-top: 50px !important;    }
-.mt-75{ margin-top: 75px !important;  }
-.mt-100{ margin-top: 100px !important;  }
+.mt-25, .my-25{   margin-top: 25px !important;    }
+.mt-50, .my-50{   margin-top: 50px !important;    }
+.mt-75, .my-75{ margin-top: 75px !important;  }
+.mt-100, .my-100{ margin-top: 100px !important;  }
 /* Bottom */
-.mb-25{   margin-bottom: 25px !important;    }
-.mb-50{   margin-bottom: 50px !important;    }
-.mb-75{ margin-bottom: 75px !important;  }
-.mb-100{ margin-bottom: 100px !important;  }
-
-/* Font Weight */
-.fw-500{    font-weight: 500;   }
-.fw-600{    font-weight: 600;   }
-.fw-700{    font-weight: 700;   }
-.fw-800{    font-weight: 800;   }
-.fw-900{    font-weight: 900;   }
+.mb-25, .my-25{   margin-bottom: 25px !important;    }
+.mb-50, .my-50{   margin-bottom: 50px !important;    }
+.mb-75, .my-75{ margin-bottom: 75px !important;  }
+.mb-100, .my-100{ margin-bottom: 100px !important;  }
 
 /* Lists */
-ul, nav{ padding: 0; margin: 0;  list-style: none;  height: auto;   width: 100vw;}
+ul{ padding: 0; margin: 0;  list-style: none;  height: auto;   width: 100vw;    }
 
 /* Link */
 a{  text-decoration: none;  color: #22311d; }
@@ -109,20 +82,17 @@ a{  text-decoration: none;  color: #22311d; }
 /* Columns */
 .col{   max-width: max-content; }
 
-/* Box Shadow */
-.bs-style-1{    box-shadow: 0px 0px 5px 0px #22311d88;    }
-
 /* Container */
 .container{ padding-left: 0;    padding-right: 0;  margin: auto !important; }
 
 /* Font Size */
-h1,h2{ font-size: 60px;    margin: 0;   line-height: 4rem;  font-family: inter; }
+h1,h2{ font-size: 3.5rem;    margin: 0;   line-height: 4rem;  font-family: inter; }
 
 /* Button */
 .btn{   position: relative; z-index: 3; overflow: hidden;   width: 190px;   font-size: 1rem;}
 .btn:is(:hover, :focus){ letter-spacing: 2px;    transition: 0.5s;   }
 .d-btn::before{   content: "";    position: absolute; top: 0; left: 0;    height: 100%;   width: 100%;    background: #35b9be;    z-index: -2;    }
-.d-btn::after{    content: "\f563"; position: absolute;  top: 5%;  right: 15px;  z-index: -1;  font-family: fontawesome; color: #007e83;  font-size: 20px;  }
+.d-btn::after{    content: "\f563"; position: absolute;  top: 50%;  right: 0px;  z-index: -1;  font-family: fontawesome; color: #007e83;  font-size: 40px;  transform: translate(-50%, -50%);   }
 .d-btn:hover::after{    content: "\f564";   }
 .btn:is(:focus, :hover){   box-shadow: 0 5px 10px 2px #22311d55;    border: 1px solid #35b9be;   }
 
@@ -143,6 +113,7 @@ h1,h2{ font-size: 60px;    margin: 0;   line-height: 4rem;  font-family: inter; 
 /* Box Shadow Effects*/
 .bs-e1{ box-shadow: 0 0px 10px #22311d55;    }
 .bs-e2{ box-shadow: 0 5px 10px #22311d55;   }
+.bs-style-1{    box-shadow: 0px 0px 5px 0px #22311d88;    }
 
 /* Input Number Arrow Hide */
 input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {    -webkit-appearance: none;   margin: 0;  }

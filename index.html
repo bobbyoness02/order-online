@@ -6,6 +6,8 @@
     <title>Home - Order Online</title>
     <link rel="stylesheet" href="Includes/css/predefined-style.css">
     <link rel="stylesheet" href="Includes/css/style.css">
+    <link rel="stylesheet" href="Includes/css/tablet-width.css" media="(max-width: 768px)">
+    <link rel="stylesheet" href="Includes/css/mobile-width.css" media="(max-width: 576px)">
 </head>
 <body>
     
@@ -33,7 +35,7 @@
             </li>
         </ul>
         <!-- Desktop Nav Menu Ends Here -->
-        <ul class="row col mobile-nav align-items-center">
+        <ul class="d-flex col mobile-nav align-items-center">
             <li class="col menu-icon"><i class="fa-solid fa-bars fs-4"></i></li>
             <li class="col p-0">
                 <ul class="position-absolute list-items bg-white">
@@ -46,7 +48,7 @@
             </li>
             <li class="col text-center bg-primary rounded-1 align-self-center cart position-relative">
                 <a href="#">
-                    <i class="fa-solid fa-cart-shopping fs-5 py-2"></i>
+                    <i class="fa-solid fa-cart-shopping fs-5 py-2 text-white"></i>
                     <span
                         class="it-cnt lh-1rem position-absolute bg-white clr-primary rounded-circle bs-style-1">0</span>
                 </a>
@@ -67,9 +69,9 @@
             <p class="pe-75 mb-25">Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy text
                 ever since the 1500.</p>
-            <button class="btn text-capitalize bg-transparent text-white p-3 rounded-2 d-btn">place an order</button>
+            <a href class="btn text-capitalize bg-transparent text-white p-3 rounded-2 d-btn">place an order</a>
             <div class="fw-600 fs-4 mt-25 trustpilot"><img src="assets/star-logo.svg" class="img-fluid tp-logo">Trustpilot</div>
-            <div><span class="clr-primary">4.8 out of 5</span> based on 2000+ reviews</div>
+            <p class="m-0"><span class="clr-primary">4.8 out of 5</span> based on 2000+ reviews</p>
         </div>
         <div class="col-6 position-relative">
             <img src="assets/hero-bnr-img-main.jpg" class="img-fluid bnr-main-img">
@@ -90,11 +92,11 @@
             <p class="pe-75 mb-25">Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy text
                 ever since the 1500.</p>
-            <button class="btn text-capitalize bg-transparent text-white p-3 rounded-2 d-btn">Learn About Us</button>
+            <a href="#" class="btn text-capitalize bg-transparent text-white p-3 rounded-2 d-btn">Learn About Us</a href="#">
         </div>
         <div class="col-6 position-relative">
             <img src="assets/fresh-product-img.jpeg" class="img-fluid">
-            <button class="btn text-capitalize text-white p-3 py-4 rounded-3 text-center position-absolute top-50 shadow d-btn">ORDERNOW</button>
+            <a href="#" class="btn text-capitalize text-white p-3 py-4 rounded-3 text-center position-absolute top-50 shadow d-btn">ORDERNOW</a href="#">
             <img src="assets/fresh-product-img-secondary.jpg" class="img-fluid position-absolute rounded-3  shadow">
         </div>
     </div>
@@ -147,9 +149,9 @@
         <p class="w-50 m-auto text-center">Use our menu to place an order online, or <a href="#" class="clr-primary border-bottom border-1" style="border-color: #35b9be !important;">phone</a> our store to
             place a pickup order. Fast and fresh food.</p>
         <div class="menu-sections row justify-content-evenly m-auto mt-25">
-            <buttons class="btn d-btn text-white py-3">Burgers</buttons>
-            <buttons class="btn d-btn text-white py-3">Sides</buttons>
-            <buttons class="btn d-btn text-white py-3">Drinks</buttons>
+            <a href="#menu"s class="btn d-btn text-white py-3">Burgers</a href="#"s>
+            <a href="#menu"s class="btn d-btn text-white py-3">Sides</a href="#"s>
+            <a href="#menu"s class="btn d-btn text-white py-3">Drinks</a href="#"s>
         </div>
         <div class="d-grid mt-75">
             <div class="g-col-6 d-grid align-items-center p-3">
@@ -162,7 +164,7 @@
                     <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor aliqua.</p>
                     <div class="checkout row align-items-center ms-0">
                         <input type="number" name="item-count" id="item-count">
-                        <button class="btn bg-primary text-white p-2 px-3 w-auto">Add to Cart</button>
+                        <a href="#" class="btn bg-primary text-white p-2 px-3 w-auto">Add to Cart</a href="#">
                     </div>
                 </div>
             </div>
@@ -176,7 +178,7 @@
                     <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor aliqua.</p>
                     <div class="checkout row align-items-center ms-0">
                         <input type="number" name="item-count" id="item-count">
-                        <button class="btn bg-primary text-white p-2 px-3 w-auto">Add to Cart</button>
+                        <a href="#" class="btn bg-primary text-white p-2 px-3 w-auto">Add to Cart</a href="#">
                     </div>
                 </div>
             </div>
@@ -190,7 +192,7 @@
                     <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor aliqua.</p>
                     <div class="checkout row align-items-center ms-0">
                         <input type="number" name="item-count" id="item-count">
-                        <button class="btn bg-primary text-white p-2 px-3 w-auto">Add to Cart</button>
+                        <a href="#" class="btn bg-primary text-white p-2 px-3 w-auto">Add to Cart</a href="#">
                     </div>
                 </div>
             </div>
@@ -204,7 +206,7 @@
                     <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor aliqua.</p>
                     <div class="checkout row align-items-center ms-0">
                         <input type="number" name="item-count" id="item-count">
-                        <button class="btn bg-primary text-white p-2 px-3 w-auto">Add to Cart</button>
+                        <a href="#" class="btn bg-primary text-white p-2 px-3 w-auto">Add to Cart</a href="#">
                     </div>
                 </div>
             </div>
@@ -218,7 +220,7 @@
                     <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor aliqua.</p>
                     <div class="checkout row align-items-center ms-0">
                         <input type="number" name="item-count" id="item-count">
-                        <button class="btn bg-primary text-white p-2 px-3 w-auto">Add to Cart</button>
+                        <a href="#" class="btn bg-primary text-white p-2 px-3 w-auto">Add to Cart</a href="#">
                     </div>
                 </div>
             </div>
@@ -232,7 +234,7 @@
                     <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor aliqua.</p>
                     <div class="checkout row align-items-center ms-0">
                         <input type="number" name="item-count" id="item-count">
-                        <button class="btn bg-primary text-white p-2 px-3 w-auto">Add to Cart</button>
+                        <a href="#" class="btn bg-primary text-white p-2 px-3 w-auto">Add to Cart</a href="#">
                     </div>
                 </div>
             </div>
@@ -260,7 +262,7 @@
             <p class="mb-25 pe-75">Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy text
                 ever since the 1500.</p>
-            <button class="btn text-white text-center p-3 rounded-2 d-btn">See our FAQ</button>
+            <a href="#" class="btn text-white text-center p-3 rounded-2 d-btn">See our FAQ</a href="#">
         </div>
     </div>
 </section>
@@ -276,11 +278,11 @@
             <p class="pe-75 mb-25">Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy text
                 ever since the 1500.</p>
-            <button class="btn text-capitalize bg-transparent text-white p-3 rounded-2 d-btn">Ph. +61 233 2333</button>
+            <a href="#" class="btn text-capitalize bg-transparent text-white p-3 rounded-2 d-btn">Ph. +61 233 2333</a href="#">
         </div>
         <div class="col-6 position-relative">
             <img src="assets/restuarent-interior.jpg" class="img-fluid">
-            <button class="btn text-capitalize text-white p-3 py-4 rounded-3 text-center position-absolute shadow d-btn">TAKEAWAY</button>
+            <a href="#" class="btn text-capitalize text-white p-3 py-4 rounded-3 text-center position-absolute shadow d-btn">TAKEAWAY</a href="#">
             <img src="assets/brakefast.jpg" class="img-fluid position-absolute rounded-3  shadow">
         </div>
     </div>
@@ -295,7 +297,7 @@
         </div>
         <div class="col-6 ps-50 bg-primary">
             <h2 class="fw-600  text-white pe-0"><span class="clr-teal">Support</span> good food and <br>local business</h2>
-            <button class="btn bg-white clr-primary">Order Now</button>
+            <a href="#" class="btn bg-white clr-primary">Order Now</a href="#">
         </div>
     </div>
 </section>

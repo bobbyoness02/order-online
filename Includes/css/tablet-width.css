@@ -1,0 +1,80 @@
+body{   font-size: 0.7rem;  }
+/* Header */
+header {    z-index: 999 !important;    }
+/* Header Bottom */
+header .container .desktop-nav{    display: none;  }
+header .row .cart{  padding: 5px 10px;  }
+header .row .cart .it-cnt{  font-size: 0.8rem;  padding: 0px 3px;   top: -5px;  right: -5px;    }
+/* Mobile Nav */
+header .mobile-nav{ display: flex !important;   }
+
+/* Hero Banner */
+#hero-bnr{background-image: linear-gradient(45deg, #ffffffbb, #ffffffbb), url(/assets/hero-bnr-img-main.jpg);   background-position: center;    background-repeat: no-repeat;   background-size: cover; }
+#hero-bnr .col-6{   width: 100%;    }
+#hero-bnr .col-6:last-child{    display: none;  }
+
+/* About Us */
+#aboutus::before{   width: calc(576px + 30px) !important;   height: 100%;}
+/* Left */
+#aboutus .col-6:first-child::before{    font-size: 5rem;    top: 15%;   }
+#aboutus .col-6:first-child h2{    padding-right: 0 !important; font-size: 30px;    margin-bottom: 15px;    line-height: 2rem;  }
+/* Right */
+#aboutus .col-6:last-child{ padding: 0 6%;  }
+#aboutus .col-6:last-child .btn{    font-size: 0.6rem;  width: 40px;    left: 30px;}
+#aboutus .col-6:last-child img:last-child{  right: 10px;    }
+
+/* How it works */
+#hiw{   padding: 50px 0 !important; }
+#hiw .container-lg::after{  content: "";}
+#hiw .container-lg::before{ content: "";    width: 3px; background: #22311d;    height: 140%;   border-radius: 50px;    top: 50%;   left: 50%; transform: translate(-50%, -50%);   }    
+#hiw .row .col-4{   width: 50%;       margin-right: 50%;  }
+#hiw .row .col-4:nth-child(even){   margin-right: 0;   margin-left: 50%;  }
+#hiw .container-lg .auto ~ p{   padding: 0 30px !important;    }
+#hiw .container-lg .cart{   right: auto;    left: 170px;    }
+#hiw .container-lg .it-cnt{ right: auto;    left: 205px;    }
+#hiw .row .col-4:first-child ~ .col-4{    margin-top: -100px;  }
+#hiw .row .col-4 img::after{content: "1";   color: #ffffff;    background: #22311d; position: absolute; top: 0; left: 0;    z-index: 5; height: 100%;   width: 100%;    font-size: 60px;    }
+
+
+/* Browser our Menu */
+#menu{  padding:  50px 0 !important;    }
+#menu .container > .d-grid{ grid-template-columns: auto;    margin-top: 50px !important;    }
+#menu .d-grid .g-col-6 .g-col-4 .row:first-child{   flex-direction: row;    align-items: center !important; }
+
+
+
+   /* Simple Checkout */
+#simp-ckt{  padding: 50px 0 100px !important; }
+#simp-ckt .row{ flex-direction: column-reverse; align-items: start !important;  }
+#simp-ckt .row .col-6{  width: 100%;       }
+#simp-ckt .row .col-6:first-child{   height: 60vh;   width: 100%;    margin-left: 10%;  }
+#simp-ckt .row .col-6:first-child > img{    width: 40%;}
+#simp-ckt .row .col-6:first-child .card{  transform: translate(-50%, -50%) scale(1) !important;   }
+#simp-ckt .col-6:last-child h2{ padding-right: 10% !important;  }  
+#simp-ckt .col-6:last-child p{  padding-right: 25% !important;  }
+
+
+/* Call our Store */
+#cos::before{   width: calc(576px + 30px) !important;   height: 100%;}
+/* Left */
+#cos .col-6:first-child::before{    font-size: 5rem;    top: 15%;   }
+#cos .col-6:first-child h2{    padding-right: 0 !important; font-size: 30px;    margin-bottom: 15px;    line-height: 2rem;  }
+#cos .col-6:first-child p{  padding: 0 !important;  }
+/* Right */
+#cos .col-6:last-child{ padding: 0 6%;  }
+#cos .col-6:last-child .btn{    font-size: 0.6rem;  width: 40px;    right: -10px;}
+#cos .col-6:last-child img:last-child{  left: 30px !important;  }
+
+/* Supportus */
+#supportus{ padding: 25px 0 !important;   }
+#supportus .container-fluid{    width: 100%;    max-width: 576px;   }
+#supportus .row{    flex-direction: column; }
+#supportus .row .col-6{ width: 100%;    }
+#supportus .row .col-6:last-child{  padding: 5vw 2vw;   }
+
+
+/* Footer */
+footer .container > .row:first-child{   display: block; }
+footer .container > .row:first-child .col-6{    width: 100%;    }
+footer .col-6:first-child .fa-solid ~ p{    padding: 0 !important;  }
+footer .container > .row:first-child .col-6:last-child{ margin-top: 50px;   }
