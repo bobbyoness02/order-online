@@ -65,9 +65,9 @@ header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-i
 #menu .container .menu-sections{    width: 75%; }
 #menu .container .menu-sections .btn{   border: 2px solid transparent;  }
 #menu .container .menu-sections:hover .d-btn:hover{   border: 2px solid #35b9be;    }    
-#menu .container .menu-sections:hover .d-btn:not(:hover){   border: 2px solid #35b9be;  background: transparent;    color: #22311d !important;  font-weight: 600;   }
-#menu .container .menu-sections:hover .d-btn:not(:hover)::before{   content: ""; background: transparent;   }
-#menu .container .menu-sections:hover .d-btn:not(:hover)::after{    content: "";    background: transparent;    }
+#menu .container .menu-sections:hover .d-btn:not(:hover, :focus){   border: 2px solid #35b9be;  background: transparent;    color: #22311d !important;  font-weight: 600;   }
+#menu .container .menu-sections:hover .d-btn:not(:hover, :focus)::before{   content: ""; background: transparent;   }
+#menu .container .menu-sections:hover .d-btn:not(:hover, :focus)::after{    content: "";    background: transparent;    }
 #menu .container > .d-grid{ gap: 30px;  box-sizing: border-box; grid-template-columns: auto auto;    }
 #menu .d-grid .g-col-6{  border-radius: 8px; border: 2px solid #35b9be;  box-sizing: border-box; width: 100%;   margin-left: 0; justify-content: space-between; grid-template-columns: 100px auto;}
 #menu .d-grid .g-col-6 .g-col{padding: 0; border-radius: 10px; overflow: hidden;}
