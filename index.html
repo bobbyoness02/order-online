@@ -4,60 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Order Online</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="Includes/css/predefined-style.css">
     <link rel="stylesheet" href="Includes/css/style.css">
-    <link rel="stylesheet" href="Includes/css/tablet-width.css" media="(max-width: 768px)">
-    <link rel="stylesheet" href="Includes/css/mobile-width.css" media="(max-width: 576px)">
-
 </head>
 <body>
     
 <!-- Header Starts Here-->
 <header id="header" class="position-relative">
     <!-- Header Top Starts Here-->
-    <section class="text-white bg-primary text-center py-2">We're open and available for takeaway & delivery. <strong class="fw-500">Order Now</strong></section>
+    <section class="text-white bg-primary text-center p-2">We're open and available for takeaway & delivery. <strong class="fw-500">Order Now</strong></section>
     <!-- Header Top Ends Here -->
     <!-- Header Bottom Starts Here -->
-    <section class="bg-white">
-        <div class="container row justify-content-between m-auto py-3 align-items-center">
-            <!-- Website Logo -->
-            <a href="#" class="col logo"><i class="fa-solid fa-seedling fs-1"></i></a>
-            <!-- Desktop Nav Menu Start Here -->
-            <nav class="p-0 m-0 col row align-items-center desktop-nav">
-                <li class="col text-center align-self-center"><a href="#" class="fw-500">Home</a></li>
-                <li class="col text-center align-self-center"><a href="#menu" class="fw-500">Order</a></li>
-                <li class="col text-center align-self-center"><a href="#" class="fw-500">Company</a></li>
-                <li class="col text-center align-self-center"><a href="#simp-ckt" class="fw-500">FAQ</a></li>
-                <li class="col text-center align-self-center"><a href="#" class="fw-500">Contact</a></li>
-                <li class="col text-center bg-primary rounded-1 cart position-relative">
-                    <a href="#">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                        <span class="it-cnt lh-1rem position-absolute bg-white clr-primary rounded-circle bs-style-1">0</span>
-                    </a>
-                </li>
-            </nav>
-            <!-- Desktop Nav Menu Ends Here -->
-            <nav class="row col mobile-nav align-items-center">
-                <li class="col menu-icon"><i class="fa-solid fa-bars fs-4"></i></li>
-                <li class="col p-0">
-                    <nav class="position-absolute list-items bg-white">
-                        <li class="list-item p-2 "><a href="#" class="fw-500">Home</a></li>
-                        <li class="list-item p-2 "><a href="#" class="fw-500">Order</a></li>
-                        <li class="list-item p-2 "><a href="#" class="fw-500">Company</a></li>
-                        <li class="list-item p-2 "><a href="#" class="fw-500">FAQ</a></li>
-                        <li class="list-item p-2 "><a href="#" class="fw-500">Contact</a></li>
-                    </nav>
-                </li>
-                <li class="col text-center bg-primary rounded-1 align-self-center cart position-relative">
-                    <a href="#">
-                        <i class="fa-solid fa-cart-shopping fs-5 py-2"></i>
-                        <span class="it-cnt lh-1rem position-absolute bg-white clr-primary rounded-circle bs-style-1">0</span>
-                    </a>
-                </li>
-            </nav>
-        </div>
-    </section>
+    <div class="container d-flex justify-content-between m-auto py-3 align-items-center">
+        <!-- Website Logo -->
+        <a href="#" class="col logo"><i class="fa-solid fa-seedling fs-1"></i></a>
+        <!-- Desktop Nav Menu Start Here -->
+        <ul class="p-0 m-0 col row align-items-center desktop-nav">
+            <li class="col"><a href="#">Home</a></li>
+            <li class="col"><a href="#menu">Order</a></li>
+            <li class="col"><a href="#">Company</a></li>
+            <li class="col"><a href="#simp-ckt">FAQ</a></li>
+            <li class="col"><a href="#">Contact</a></li>
+            <li class="col bg-primary rounded-1 cart position-relative">
+                <a href="#">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="it-cnt position-absolute bg-white clr-primary rounded-circle bs-e2 py-0 px-1">0</span>
+                </a>
+            </li>
+        </ul>
+        <!-- Desktop Nav Menu Ends Here -->
+        <ul class="row col mobile-nav align-items-center">
+            <li class="col menu-icon"><i class="fa-solid fa-bars fs-4"></i></li>
+            <li class="col p-0">
+                <ul class="position-absolute list-items bg-white">
+                    <li class="p-2 "><a href="#">Home</a></li>
+                    <li class="p-2 "><a href="#">Order</a></li>
+                    <li class="p-2 "><a href="#">Company</a></li>
+                    <li class="p-2 "><a href="#">FAQ</a></li>
+                    <li class="p-2 "><a href="#">Contact</a></li>
+                </ul>
+            </li>
+            <li class="col text-center bg-primary rounded-1 align-self-center cart position-relative">
+                <a href="#">
+                    <i class="fa-solid fa-cart-shopping fs-5 py-2"></i>
+                    <span
+                        class="it-cnt lh-1rem position-absolute bg-white clr-primary rounded-circle bs-style-1">0</span>
+                </a>
+            </li>
+        </ul>
+    </div>
     <!-- Header Bottom Ends Here -->
 </header>
 <!-- Header Ends Here -->
