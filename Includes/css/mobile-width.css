@@ -1,4 +1,6 @@
 .container{ width: 100%;    max-width: calc(100% - 40px);   margin: auto;   }
+.btn{   padding: 1rem 2.5rem !important;  }
+.btn:is(:focus, :hover) {   padding: 1rem 1.6rem !important;    }
 
 /* Hero Banner */
 #hero-bnr .col-6 .pe-75{    padding-right: 6.5rem !important; }
@@ -16,7 +18,6 @@
 #cos .col-6:first-child::before{    font-size: 4rem;    }
 #cos .col-6:first-child h2{    font-size: 1.3rem;  line-height: 1.3rem; margin-bottom: 10px;    padding-right: 60px !important;    }
 #cos .col-6:first-child p{  font-size: 0.6rem;  margin-bottom: 10px;    }
-#cos .col-6:first-child .btn{   width: 22vw;    }
 
 /* How it works */
 #hiw{   padding: 25px 0 !important; }
@@ -32,6 +33,7 @@
 #simp-ckt{  padding: 50px 0px !important; }
 #simp-ckt .col-6:last-child h2{ padding-right: 50px !important;    }
 #simp-ckt .col-6:last-child p{  padding-right: 100px !important;    }
+#simp-ckt .col-6:last-child a:is(:hover, :focus){ padding: 1rem 1.8rem !important;    }
 #simp-ckt .row .col-6:first-child > img{    width: 35%; }
 #simp-ckt .row .col-6:first-child .card{        transform: translate(-50%, -50%) scale(0.9) !important;   }
 
