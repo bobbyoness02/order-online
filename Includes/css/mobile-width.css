@@ -1,5 +1,8 @@
 .container{ width: 100%;    max-width: calc(100% - 40px);   margin: auto;   }
 
+/* Hero Banner */
+#hero-bnr .col-6 .pe-75{    padding-right: 6.5rem !important; }
+
 /* About Us */
 #aboutus::before{   width: 95% !important; height: 90%;    }
 /* left */
@@ -38,3 +41,10 @@
 /* Footer */
 footer .row:first-child .col-6:last-child{   display: grid; grid-template-columns: auto auto;   gap: 30px;  }
 footer .row:first-child .col-6:last-child .col-4{   width: 100%;    }
+
+@media (max-width: 425px){
+
+    /* Hero Banner */
+    #hero-bnr h1{   font-size: 2rem;  line-height: 2rem;}
+    #hero-bnr .col-6 .pe-75{    padding-right: 0 !important; }
+}

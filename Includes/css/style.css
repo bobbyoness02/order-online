@@ -19,12 +19,14 @@ header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-i
 /* Hero Bannner */
 #hero-bnr::before{  content: "";    background: #35b9be;    position: absolute; height: 100%;   width: 100%;    -webkit-clip-path: ellipse(50% 70% at 100% 0%); clip-path: ellipse(50% 70% at 100% 0%); top: 0; right: 0;   opacity: 0.2;   z-index: -2;}
 /* Left */
-#hero-bnr .col-6 .tp-logo{  height: 50px;   width: 50px;    margin-left: -10px; }
+#hero-bnr .col-6:first-child .trustpilot{   font-weight: 600;   }
+#hero-bnr .col-6 .tp-logo{  height: 3vw;   width: 3vw;    margin-left: -10px;   }
+
 /* Right */
 #hero-bnr .col-6:last-child{    padding: 0 12% 0 6%;   }
-#hero-bnr .col-6 .bnr-main-img{ border-radius: 100px 30px;  }
-#hero-bnr .col-6:last-child img:nth-child(2){   height: 15rem;  width: 15rem;   bottom: -50px;  right: 80px;    object-fit: cover;  object-position: top;   }
-#hero-bnr .col-6:last-child img:nth-child(3){   height: 60px;  bottom: 60px;  right: 290px;    object-view-box: inset(20px);   }
+#hero-bnr .col-6 .bnr-main-img{ border-radius: 100px 30px;  width: 25vw;}
+#hero-bnr .col-6:last-child img:nth-child(2){   height: 18vw;  width: 18vw;   bottom: -10%;  right: 15%;    object-fit: cover;  object-position: top;   }
+#hero-bnr .col-6:last-child img:nth-child(3){   height: 4vw;  bottom: 60px;  right: 300px;    object-view-box: inset(20px);   }
 #hero-bnr .col-6:last-child img:nth-child(4){   height: 40px;   width: 40px;    object-fit: cover;  object-view-box: inset(0 50px 0 0); bottom: 130px;  right: 15%;}
 
 
@@ -38,7 +40,7 @@ header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-i
 /* Right */
 #aboutus .col-6:last-child, #cos .col-6:last-child{ padding: 0 120px;   }
 #aboutus .col-6:last-child img:first-child, #cos .col-6:last-child img:first-child{ border-radius: 20px;    object-view-box: inset(25px);   }
-#aboutus .col-6:last-child .btn, #cos .col-6:last-child .btn{    word-wrap: break-word;  width: 50px;    transform: translate(-50%, -50%);   left: 120px;    font-size: 1.1rem;  border: none;   }
+#aboutus .col-6:last-child .btn, #cos .col-6:last-child .btn{    word-wrap: break-word;  width: 50px;    transform: translate(-50%, -50%);   left: 120px;    font-size: 1.1rem;  border: none;   padding: 20px !important; }
 #aboutus .col-6:last-child .btn:is(:hover, :focus), #cos .col-6:last-child .btn:is(:hover, :focus){ letter-spacing: normal; }
 #aboutus .col-6:last-child .btn::after, #cos .col-6:last-child .btn::after{ content: url(/assets/party-confetti-dark.svg);  height: auto;  width: 150px;    top: 50%;   left: 50%;  transform: translate(-50%, -50%) }
 #aboutus .col-6:last-child img:last-child, #cos .col-6:last-child img:last-child{  bottom: 20%;    height: 8vw;   width: 8vw;   object-fit: cover; right: 60px;   object-view-box:inset(0 -20% 0 0);   }
@@ -136,6 +138,20 @@ footer .builtby .sm-icons:hover a:not(:hover){  background: transparent;  color:
 
 
 /* Desktop Width Responsive */
+@media (min-width: 1440px){
+
+    /* Hero Banner */
+    #hero-bnr .col-6:last-child img:nth-child(2){   height: 15rem;  width: 15rem;   right: 15%; bottom: -5%;    }
+    
+}
+@media (max-width: 1440px){
+/* Hero Banner */
+#hero-bnr .col-6:last-child img:nth-child(2){       height: 14rem;  width: 14rem; right: 25%;  bottom: -5%; }    
+#hero-bnr .col-6:last-child img:nth-child(3){   right: 55%; }
+#hero-bnr .col-6:last-child img:nth-child(4){   right: 25%; }
+
+}
+
 @media (min-width: 1399px){
 
 /* Support us */
@@ -151,6 +167,10 @@ h1,h2{  font-size: 3.5em;    margin: 0;   line-height: 3.5rem;  }
 #hero-bnr{  padding: 75px 0 !important; }
 /* Left */
 #hero-bnr h1{   font-size: 3.5em;   }
+#hero-bnr .col-6 .pe-75{    padding-right: 50px !important; }
+/* Right */
+#hero-bnr .col-6:last-child img:nth-child(2){       height: 15rem;  width: 15rem; right: 20%;  bottom: -5%; }    
+#hero-bnr .col-6:last-child img:nth-child(4){   right: 20%; }
 
 
 /* About Us */
@@ -220,15 +240,14 @@ h1,h2{  font-size: 3.5em;    margin: 0;   line-height: 3rem; }
 /* Hero Banner */
 #hero-bnr{  padding: 50px 0 !important}
 /* Left */
-#hero-bnr h1{   font-size: 45px;    margin-bottom: 25px !important; }
-#hero-bnr p{    margin-bottom:  25px !important;    padding-right: 0;}
+#hero-bnr h1{   margin-bottom: 25px !important; }
+#hero-bnr .col-6 .pe-75{    margin-bottom:  25px !important;    padding-right: 0;   padding: 0% !important;  }  
 /* Right */
 #hero-bnr .col-6:first-child .trustpilot{   font-size: 1rem !important;   margin-top: 15px; }
-#hero-bnr .col-6:first-child .tp-logo{  height: 30px;   width: 30px;    }
 #hero-bnr .col-6:last-child img:nth-child(1){   border-radius: 70px 20px;   }
-#hero-bnr .col-6:last-child img:nth-child(2){   height: 13rem;  width: 13rem;   right: 65px;    }
-#hero-bnr .col-6:last-child img:nth-child(3){   height: 60px;   right: 250px;   bottom: 40px;   }
-#hero-bnr .col-6:last-child img:nth-child(4){   height: 40px;   width: 40px;    bottom: 100px;  right: 15%;    }
+#hero-bnr .col-6:last-child img:nth-child(2){   height: 16vw;  width: 16vw;   right: 15%;    bottom: -5%;   }
+#hero-bnr .col-6:last-child img:nth-child(3){   right: 50%; }
+#hero-bnr .col-6:last-child img:nth-child(4){   height: 3.5vw;   width:3.5vw;    bottom: 100px;  right: 15%;    }
 
 
 /* About Us */
@@ -292,6 +311,14 @@ footer .col-6:first-child .fa-solid ~ p {    padding-right: 80px !important;   }
 }
 
 
+@media (max-width: 1024px){
+
+    /* Hero Banner */
+    #hero-bnr .col-6:last-child img:nth-child(2){   right: 25%; }
+    #hero-bnr .col-6:last-child img:nth-child(3){   right: 55%; height: 5vw;    bottom: 40px;   }
+    #hero-bnr .col-6:last-child img:nth-child(4){   right: 25%; }
+}
+
 @media (max-width: 992px){
 body{   font-size: 0.7rem !important;   }
 h1,h2{  margin: 0;   line-height: 2.5rem;   }
@@ -305,7 +332,7 @@ h1,h2{  margin: 0;   line-height: 2.5rem;   }
 #hero-bnr .col-6:first-child .trustpilot{   font-size: 1rem !important;   margin-top: 15px; }
 #hero-bnr .col-6:first-child .tp-logo{  height: 30px;   width: 30px;    }
 /* Right */
-#hero-bnr .col-6:last-child img:nth-child(2){   height: 8rem;  width: 8rem;   right: 50px;    bottom: -20px;    }
+#hero-bnr .col-6:last-child img:nth-child(2){   height: 13vw;  width: 13vw;   right: 50px;    bottom: -20px;    }
 #hero-bnr .col-6:last-child img:nth-child(3){   height: 40px;   right: 150px;   bottom: 30px;   }
 #hero-bnr .col-6:last-child img:nth-child(4){   height: 30px;   width: 30px;    bottom: 70px;  right: 15%;    }
     
