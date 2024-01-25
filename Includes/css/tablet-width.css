@@ -1,4 +1,5 @@
 body{   font-size: 0.7rem;  }
+.d-btn::after{  font-size: 25px;    }
 /* Header */
 header {    z-index: 999 !important;    }
 /* Header Bottom */
@@ -18,7 +19,7 @@ header .mobile-nav{ display: flex !important;   }
 #aboutus::before{   width: calc(576px + 30px) !important;   height: 100%;}
 /* Left */
 #aboutus .col-6:first-child::before{    font-size: 5rem;    top: 15%;   }
-#aboutus .col-6:first-child h2{    padding-right: 0 !important; font-size: 30px;    margin-bottom: 15px;    line-height: 2rem;  }
+#aboutus .col-6:first-child h2{    padding-right: 0 !important; font-size: 30px;    margin-bottom: 15px !important;    line-height: 2rem;  }
 /* Right */
 #aboutus .col-6:last-child{ padding: 0 6%;  }
 #aboutus .col-6:last-child .btn{    font-size: 0.6rem;  width: 40px;    left: 30px;}
