@@ -21,7 +21,7 @@
 /* left */
 #aboutus .col-6:first-child::before{    font-size: 4rem;    }
 #aboutus .col-6:first-child h2{    font-size: 1.3rem;  line-height: 1.3rem; margin-bottom: 10px;    padding-right: 60px !important;    }
-#aboutus .col-6:first-child p{  font-size: 0.6rem;  margin-bottom: 10px;    }
+#aboutus .col-6:first-child p{  margin-bottom: 10px;    }
 
 /* Call our store */
 
@@ -29,7 +29,7 @@
 /* left */
 #cos .col-6:first-child::before{    font-size: 4rem;    }
 #cos .col-6:first-child h2{    font-size: 1.3rem;  line-height: 1.3rem; margin-bottom: 10px;    padding-right: 60px !important;    }
-#cos .col-6:first-child p{  font-size: 0.6rem;  margin-bottom: 10px;    }
+#cos .col-6:first-child p{  margin-bottom: 10px;    }
 
 /* How it works */
 #hiw{   padding: 25px 0 !important; }

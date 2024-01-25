@@ -1,4 +1,4 @@
-body{   font-size: 0.7rem;  }
+body{   font-size: 0.75rem;  }
 .d-btn::after{  font-size: 25px;    }
 /* Header */
 header {    z-index: 999 !important;    }
