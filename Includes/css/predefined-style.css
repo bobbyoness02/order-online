@@ -167,4 +167,4 @@ h1,h2{ font-size: 60px;    margin: 0;   line-height: 4rem;  font-family: inter;}
 
 /* Input Number Arrow Hide */
 input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {    -webkit-appearance: none;   margin: 0;  }
-input[type=number] {    -moz-appearance: textfield; }
+input[type=number] {    -moz-appearance: textfield; appearance: none;   }
