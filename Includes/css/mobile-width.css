@@ -1,36 +1,31 @@
-
+h1,h2{  font-size: 3rem;   line-height: normal; }
+h2{ font-size: 2rem;    }
+p{  font-size: 0.8rem;    }
 .btn{   padding: 0.7rem 2rem !important;  }
 .btn:is(:focus, :hover) {   padding: 0.7rem 1.1rem !important;    }
 
 /* Hero Banner */
-#hero-bnr h1{   font-size: 3rem;    line-height: 3rem;  }
-#hero-bnr .col-6 .pe-75{    padding-right: 15% !important; }
+#hero-bnr .col-6 .pe-75{    padding-right: 75px !important; }
 
 /* About Us */
-#aboutus{   padding: 50px 0 !important;   }   
-#aboutus::before{   width: 95% !important; height: 100%;    }
-#aboutus .row{  flex-direction: column; align-items: start !important;}
-#aboutus .row .col-6{   width: 100%;    }
-#aboutus .row .col-6:first-child{   padding-top: 50px;  padding-bottom: 50px;   ;}
-#aboutus .col-6:first-child::before{    top: 30%;   left: 50%;  transform: translate(-50%, -50%) scale(1.5) rotate(-10deg);  }
-#aboutus .col-6:first-child p{  padding-right: 30% !important; }
-#aboutus .col-6:last-child{ padding: 0 30%; margin-left: 20%;   margin-top: -20%;   }
-#aboutus .col-6:last-child .btn{    left: 30%; }
-#aboutus .col-6:last-child img:last-child{  right: 25%; height: 10vw;   width: 10vw;    }
+#aboutus .col-6:last-child{    margin-top: -15%;   padding: 0 10% 0 40%;    }
+#aboutus .col-6:first-child h2{ padding-right: 50% !important;  }
+#aboutus .col-6:first-child p{  padding-right: 5rem !important; }
+#aboutus .col-6:last-child .btn{    left: 13.5rem;  }
+#aboutus .col-6:last-child img:last-child{  right: 2rem; }
+#aboutus .col-6:last-child img:last-child, #cos .col-6:last-child img:last-child{   height: 10vw; width: 10vw;}
 
 
-/* left */
-#aboutus .col-6:first-child::before{    font-size: 4rem;    }
-#aboutus .col-6:first-child h2{    font-size: 1.3rem;  line-height: 1.3rem; margin-bottom: 10px;    padding-right: 60px !important;    }
-#aboutus .col-6:first-child p{  margin-bottom: 10px;    }
+/* How it works */
+#hiw .row .col-4{   width: 80%; }
+#hiw .container-lg::before{ left: 10%;   }
 
 /* Call our store */
-
 #cos::before{   width: 95% !important; height: 90%;    }
 /* left */
 #cos .col-6:first-child::before{    font-size: 4rem;    }
-#cos .col-6:first-child h2{    font-size: 1.3rem;  line-height: 1.3rem; margin-bottom: 10px;    padding-right: 60px !important;    }
-#cos .col-6:first-child p{  margin-bottom: 10px;    }
+#cos .col-6:first-child h2{ margin-bottom: 10px;    padding-right: 150px !important;    }
+#cos .col-6:first-child p{  margin-bottom: 10px;    padding-right: 75px !important; }
 
 /* How it works */
 #hiw{   padding: 25px 0 !important; }
@@ -45,7 +40,7 @@
 /* Simple Checkout  */
 #simp-ckt{  padding: 50px 0px !important; }
 #simp-ckt .col-6:last-child h2{ padding-right: 50px !important;    }
-#simp-ckt .col-6:last-child p{  padding-right: 100px !important;    }
+#simp-ckt .col-6:last-child p{  padding-right: 75px !important;    }
 #simp-ckt .col-6:last-child a:is(:hover, :focus){ padding: 0.7rem 1.3rem !important;    }
 #simp-ckt .row .col-6:first-child > img{    width: 35%; }
 #simp-ckt .row .col-6:first-child .card{        transform: translate(-50%, -50%) scale(0.9) !important;   }
@@ -61,18 +56,17 @@
 footer .row:first-child .col-6:last-child{   display: grid; grid-template-columns: auto auto;   gap: 30px;  }
 footer .row:first-child .col-6:last-child .col-4{   width: 100%;    }
 
-@media (max-width: 491px){
-    #hero-bnr h1{   padding-right: 10px;    }
-    #aboutus .col-6:first-child h2{ padding-right: 0 !important;    }
-    #aboutus .col-6:last-child{ margin-top: -5%;    }
-    #aboutus .col-6:last-child img:last-child{  height: 15vw;   width: 15vw;}
-}
-
 @media (max-width: 425px){
 
     /* Hero Banner */
     #hero-bnr h1{   font-size: 2rem;  line-height: 2rem;}
     #hero-bnr .col-6 .pe-75{    padding-right: 0 !important; }
 
+    #aboutus .col-6:first-child h2{ padding-right: 30% !important;  }
     #aboutus .col-6:first-child p{  padding-right: 0 !important;    }
+    #aboutus .col-6:last-child{ padding: 0 20%; margin-top: 0;  }
+    #aboutus .col-6:last-child .btn{    left: 4.7rem;   }
+    #aboutus .col-6:last-child img:last-child{  right: 4rem;    ;}
+
+    #hiw .row .col-4{   flex-direction: column; align-items: start;}
 }

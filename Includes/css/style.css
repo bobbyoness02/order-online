@@ -17,7 +17,7 @@ header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-i
 
 
 /* Hero Bannner */
-#hero-bnr::before{  content: "";    background: #35b9be;    position: absolute; height: 100%;   width: 100%;    -webkit-clip-path: ellipse(50% 70% at 100% 0%); clip-path: ellipse(50% 70% at 100% 0%); top: 0; right: 0;   opacity: 0.2;   z-index: -2;}
+
 /* Left */
 #hero-bnr .col-6:first-child .trustpilot{   font-weight: 600;   }
 #hero-bnr .col-6 .tp-logo{  height: 3vw;   width: 3vw;    margin-left: -10px;   }
@@ -51,21 +51,20 @@ header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-i
 #hiw .container-lg::after, #hiw .container-lg::before{  content: "---------------";    color: #22311d; position: absolute; top: 30%;   left: 33.5%;  transform: translate(-50%, -50%);   }
 #hiw .container-lg::before{ left: 66.5%;}
 #hiw .container-lg .auto{ height: 250px;  width: 250px;   object-fit: cover;  }
+#hiw .col-4{    text-align: center ;}
 
 /* Steps */
 /* step 1 */
-#hiw .container-lg .cart{   background: #fff;   padding: 0.5rem 0.9rem;    top: 30px;  right: 100px;    font-size: 1.5rem;  }
-#hiw .container-lg .it-cnt{ line-height: 0.9rem;    padding: 1px 4px;   border: 3px solid #fff;  top: 20px; right: 90px;    }
+#hiw .container-lg .cart{   background: #fff;   padding: 0.5rem 0.9rem;    top: 30px;  right: 90px;    font-size: 1.5rem;  }
+#hiw .container-lg .it-cnt{ line-height: 0.9rem;    padding: 1px 4px;   border: 3px solid #fff;  top: 20px; right: 80px;    }
 /* step 2 */
-#hiw .container-lg .google{ height: auto;   width: 60px;    left: 80px; top: 50px;  }
+#hiw .container-lg .google{ height: auto;   width: 60px;    left: 70px; top: 50px;  }
 #hiw .container-lg .google img{ object-view-box: inset(10%);  }
-#hiw .container-lg .apple{  height: 40px;   width: 40px;    top: 20px;  right: 110px;   }
+#hiw .container-lg .apple{  height: 40px;   width: 40px;    top: 20px;  right: 100px;   }
 #hiw .container-lg .apple img{  object-fit: cover;  width: 40px;    height: 40px;       object-position: center;    }
 /* step 3 */
-#hiw .container-lg .prf-1{  height: 100px;  width: 100px;   left: 60px; border: 4px solid #fff;   }
-#hiw .container-lg .prf-1 img{  object-fit: cover; height: 100%;    object-position: -20px -5px;   }
-#hiw .container-lg .prf-2{  height: 60px;   width: 60px;    border: 4px solid #fff; top: 130px;   right: 70px;   }
-#hiw .container-lg .prf-2 img{  object-fit: cover;  height: 100%;   }
+#hiw .container-lg .prf-1{  height: 100px;  width: 100px;   left: 75px; border: 4px solid #fff;   object-fit: cover;    }
+#hiw .container-lg .prf-2{  height: 60px;   width: 60px;    border: 4px solid #fff; top: 130px;   right: 65px;   object-fit: cover; }
 
 /* Browse Our Menu  */
 #menu .container .menu-sections{    width: 75%; }
@@ -83,7 +82,7 @@ header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-i
 
 #menu .d-grid .g-col-6 .g-col-4 p{    font-size: 0.9em !important;      padding-right: 50px;    }
 #menu .d-grid .g-col-6 .g-col-4 #item-count{    width: 40px;    height: 40px;   border-radius: 5px; border: 2px solid #22311d55;    text-align: center; }
-#menu .d-grid .g-col-6 .g-col-4 .btn{   width: 150px !important;    margin-left: 10px;  }
+#menu .d-grid .g-col-6 .g-col-4 .btn{   margin-left: 10px;  }
 
 /* Simple Checkout */
 #simp-ckt .col-6 .card::before{  content: url(/assets/party-confetti.svg); position: absolute;   top: 0;  left: 0;    transform: translate(-50%, -50%) scale(0.8);}
@@ -148,13 +147,13 @@ footer .builtby .sm-icons:hover a:not(:hover){  background: transparent;  color:
 }
 @media (max-width: 1440px){
 
-    h1,h2{  font-size: 3.5em;   line-height: normal; }
+    h1,h2{  font-size: 3.6em;   line-height: normal; }
     h2{ font-size: 3rem;    }
-    p{  font-size: 0.8rem;    }
+    p{  font-size: 1rem;    }
 
 /* Hero Banner */
 #hero-bnr .col-6:last-child img:nth-child(2){       height: 14rem;  width: 14rem; right: 25%;  bottom: -5%; }    
-#hero-bnr .col-6:last-child img:nth-child(3){   right: 55%; }
+#hero-bnr .col-6:last-child img:nth-child(3){   right: 53%; }
 #hero-bnr .col-6:last-child img:nth-child(4){   right: 25%; }
 
 }
@@ -168,13 +167,17 @@ footer .builtby .sm-icons:hover a:not(:hover){  background: transparent;  color:
 
 @media (max-width: 1399px){
 
+    h1,h2{  font-size: 3.1rem;   line-height: normal; }
+    h2{ font-size: 3rem;    }
+    p{  font-size: 1rem;    }
+
 /* Hero Banner */
 #hero-bnr{  padding: 75px 0 !important; }
 /* Left */
 #hero-bnr .col-6 .pe-75{    padding-right: 50px !important; }
 /* Right */
-#hero-bnr .col-6:last-child img:nth-child(2){       height: 15rem;  width: 15rem; right: 20%;  bottom: -5%; }    
-#hero-bnr .col-6:last-child img:nth-child(4){   right: 20%; }
+#hero-bnr .col-6:last-child img:nth-child(2){       height: 14rem;  width: 14rem; right: 18%;  bottom: -5%; }    
+#hero-bnr .col-6:last-child img:nth-child(4){   right: 18%; }
 
 
 /* About Us */
@@ -223,7 +226,6 @@ footer .builtby .sm-icons:hover a:not(:hover){  background: transparent;  color:
 #aboutus .col-6:last-child img:last-child{  right: 80px;    }
 
 /* Footer */
-footer{ font-size: 0.9rem !important;   }
 footer .col-6:first-child .fa-solid ~ p {    padding-right: 200px !important;   }
 
 }
@@ -236,6 +238,9 @@ footer .col-6:first-child .fa-solid ~ p {    padding-right: 200px !important;   
 
 @media (max-width: 1199px){
 
+    h1,h2{  font-size: 2.6em;   line-height: normal; }
+    h2{ font-size: 2.3rem;    }
+    p, footer{  font-size: 0.8em;    }
 
 /* Hero Banner */
 #hero-bnr{  padding: 50px 0 !important}
@@ -253,7 +258,8 @@ footer .col-6:first-child .fa-solid ~ p {    padding-right: 200px !important;   
 #aboutus{   padding: 50px 0 !important; }
 #aboutus::before{   width: 992px;  height: 95%;}
 /* Left */
-#aboutus .col-6:first-child h2{ padding-right: 50px !important;    line-height: 2.5rem; }
+#aboutus .col-6:first-child h2{ padding-right: 10rem !important;    }
+#aboutus .col-6:first-child p{  padding-right: 0rem !important;}
 #aboutus .col-6:first-child::before{    font-size: 8rem;   top: 0%;    }
 /* Right */
 #aboutus .col-6:last-child{    padding: 0 80px;  }
@@ -277,8 +283,8 @@ footer .col-6:first-child .fa-solid ~ p {    padding-right: 200px !important;   
 #cos .col-6:last-child img:last-child{  right: 40px;    }
 
 /* How it works */
-#hiw .container-lg::after, #hiw .container-lg::before{  transform: scale(0.9) translate(-50%, -50%) !important; left: 33%;  }
-#hiw .container-lg::before{ left: 65.5%;  }
+#hiw .container-lg::after, #hiw .container-lg::before{  transform: scale(0.7) translate(-50%, -50%) !important; left: 31.5%;  }
+#hiw .container-lg::before{ left: 64%;  }
 /* Steps */
 #hiw .container-lg .cart{   right: 60px;    }
 #hiw .container-lg .it-cnt{ right: 50px;    }
@@ -303,7 +309,6 @@ footer .col-6:first-child .fa-solid ~ p {    padding-right: 200px !important;   
 
 
 /* Footer */
-footer{ font-size: 0.9rem !important;   }
 footer .col-6:first-child .fa-solid ~ p {    padding-right: 80px !important;   }
 }
 
@@ -328,13 +333,14 @@ footer .col-6:first-child .fa-solid ~ p {    padding-right: 80px !important;   }
 
 @media (max-width: 992px){
 
-h1,h2{  margin: 0;   line-height: 2.5rem;   }
+    h1,h2{  font-size: 2em;   line-height: normal; }
+    h2{ font-size: 1.7rem;  }
+    p, footer{  font-size: 0.7rem;    }
     
     
 /* Hero Banner */
 #hero-bnr{  padding: 25px 0 !important}
 /* Left */
-#hero-bnr h1{   font-size: 2em;    margin-bottom: 15px !important; }
 #hero-bnr p{    margin-bottom:  15px !important;    }
 #hero-bnr .col-6:first-child .trustpilot{   font-size: 1rem !important;   margin-top: 15px; }
 #hero-bnr .col-6:first-child .tp-logo{  height: 30px;   width: 30px;    }
@@ -346,22 +352,23 @@ h1,h2{  margin: 0;   line-height: 2.5rem;   }
     
 /* About Us */
 #aboutus{   padding: 50px 0 !important; }
-#aboutus::before{   width: 95%;  }
+#aboutus::before{   width: 85%;  }
 /* Left */
 #aboutus .col-6:first-child::before{    font-size: 6rem;   top: 0%; }
+#aboutus .col-6:first-child h2{ padding-right: 7rem !important;   }
 #aboutus .col-6:first-child p{  padding-right: 0 !important;}
 /* Right */
 #aboutus .col-6:last-child{    padding: 0 80px;  }
-#aboutus .col-6:last-child .btn{    font-size: 0.9rem;  width: 45px;    } 
+#aboutus .col-6:last-child .btn{    font-size: 0.9rem;  width: 45px;    transform: scale(0.8) translate(-50%, -50%);    } 
 #aboutus .col-6:last-child img:last-child{  right: 50px;    }
 
     
 /*  How it Starts */
-#hiw .container-lg::after, #hiw .container-lg::before{  transform: translate(-50%, -50%) scale(0.7) !important; top: 30%;   left: 34%;  }
+#hiw .container-lg::after, #hiw .container-lg::before{  transform: translate(-50%, -50%) scale(0.5) !important; top: 25%;   left: 34%;  }
 #hiw .container-lg::before{ left: 66%;  }
 #hiw .container-lg .auto{   height: 150px;  width: 150px;   }
 /* Steps */
-#hiw .container-lg .auto ~ h4{  font-size: 0.8rem !important;   margin-top: 20px;}
+#hiw .container-lg .auto ~ h4{  margin-top: 20px;}
 #hiw .container-lg .auto ~ p{   padding: 0 !important;  }
 /* Step 1 */
 #hiw .container-lg .cart{   transform: scale(0.8);  right: 30px;    top: 10px;  }
