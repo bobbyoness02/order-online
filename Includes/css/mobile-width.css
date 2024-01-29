@@ -4,7 +4,7 @@
 
 /* Hero Banner */
 #hero-bnr h1{   font-size: 3rem;    line-height: 3rem;  }
-#hero-bnr .col-6 .pe-75{    padding-right: 6.5rem !important; }
+#hero-bnr .col-6 .pe-75{    padding-right: 15% !important; }
 
 /* About Us */
 #aboutus{   padding: 50px 0 !important;   }   
