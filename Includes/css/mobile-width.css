@@ -3,6 +3,7 @@
 .btn:is(:focus, :hover) {   padding: 0.7rem 1.1rem !important;    }
 
 /* Hero Banner */
+#hero-bnr h1{   font-size: 3rem;    line-height: 3rem;  }
 #hero-bnr .col-6 .pe-75{    padding-right: 6.5rem !important; }
 
 /* About Us */
