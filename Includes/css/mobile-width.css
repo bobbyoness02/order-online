@@ -18,7 +18,7 @@ p{  font-size: 0.8rem;    }
 
 /* How it works */
 #hiw .row .col-4{   width: 80%; }
-#hiw .container-lg::before{ left: 10%;   }
+#hiw .container-lg::before{ left: 8%;   }
 
 /* Call our store */
 #cos::before{   width: 95% !important; height: 90%;    }
