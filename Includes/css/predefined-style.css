@@ -83,18 +83,18 @@ a{  text-decoration: none;  color: #22311d; }
 .col{   max-width: max-content; }
 
 /* Container */
-.container{ padding-left: 0;    padding-right: 0;  margin: auto !important; }
+.container{ margin: auto !important; }
 
 /* Font Size */
 h1,h2{ font-size: 3.5rem;    margin: 0;   line-height: 4rem;  font-family: inter; font-weight: 800;}
 
 /* Button */
-.btn{   position: relative; z-index: 3; overflow: hidden;   font-size: 1rem;    padding: 1rem 3rem !important; }
+.btn{   position: relative; z-index: 3; overflow: hidden;   font-size: 1rem;    padding: 0.7rem 2rem !important; }
 .btn:is(:hover, :focus){ letter-spacing: 2px;    transition: 0.5s;     }
 .d-btn::before{   content: "";    position: absolute; top: 0; left: 0;    height: 100%;   width: 100%;    background: #35b9be;    z-index: -2;    }
-.d-btn::after{    content: "\f563"; position: absolute;  top: 50%;  right: 0px;  z-index: -1;  font-family: fontawesome; color: #007e83;  font-size: 40px;  transform: translate(-50%, -50%);   }
+.d-btn::after{    content: "\f563"; position: absolute;  top: 50%;  right: 0px;  z-index: -1;  font-family: fontawesome; color: #007e83;  font-size: 2rem;  transform: translate(-50%, -50%);   }
 .d-btn:hover::after{    content: "\f564";   }
-.btn:is(:focus, :hover){   box-shadow: 0 5px 10px 2px #22311d55;    border: 1px solid #35b9be;   padding: 1rem 2.1rem !important;  }
+.btn:is(:focus, :hover){   box-shadow: 0 5px 10px 2px #22311d55;    border: 1px solid #35b9be;   padding: 0.7rem 1.2rem !important;  }
 
 @media (max-width: 1399px){ .btn{   font-size: 0.9rem;  }}   
 @media (max-width: 1199px){ .btn{   font-size: 0.8rem;  }   }
@@ -120,4 +120,4 @@ input[type=number] {    -moz-appearance: textfield; appearance: none;   }
 
 
 /* Go to Top */
-.got{   padding: 10px 15px; bottom: 3%;  right: 2%; z-index: 999;}
+.got{   padding: 10px 15px; bottom: 3%;  right: 2%; z-index: 999;   }

@@ -16,7 +16,7 @@ header .mobile-nav{ display: flex !important;   }
 #hero-bnr .col-6 .pe-75{    padding-right: 130px !important; }
 
 /* About Us */
-#aboutus::before{   width: calc(576px + 30px) !important;   height: 100%;}
+#aboutus::before{   width: calc(576px + 50px) !important;   height: 95%;}
 /* Left */
 #aboutus .col-6:first-child::before{    font-size: 5rem;    top: 15%;   }
 #aboutus .col-6:first-child h2{    padding-right: 0 !important; font-size: 30px;    margin-bottom: 15px !important;    line-height: 2rem;  }

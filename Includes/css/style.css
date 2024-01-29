@@ -3,7 +3,7 @@
 header .logo{   color: #35b9be; }
 header .row .cart{  padding: 10px 15px; }
 header .row .cart .fa-solid{  color: #fff;  }
-header .row .cart .it-cnt{  top: -10px ;    right: -10px;   padding: 2px 5px;    }
+header .row .cart .it-cnt{  top: -10px ;    right: -10px;   padding: 2px 5px !important;    line-height: 1rem;  }
 header:has(.desktop-nav, .mobile-nav) li a{    font-weight: 500;  width: max-content !important;    }
 /* Mobile Nav */
 header .mobile-nav{ display: none !important;   }
@@ -69,7 +69,7 @@ header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-i
 
 /* Browse Our Menu  */
 #menu .container .menu-sections{    width: 75%; }
-#menu .container .menu-sections .btn{   border: 2px solid transparent;  }
+#menu .container .menu-sections .btn{   border: 2px solid transparent;  width: max-content; }
 #menu .container .menu-sections:hover .d-btn:hover{   border: 2px solid #35b9be;    }    
 #menu .container .menu-sections:hover .d-btn:not(:hover, :focus){   border: 2px solid #35b9be;  background: transparent;    color: #22311d !important;  font-weight: 600;   }
 #menu .container .menu-sections:hover .d-btn:not(:hover, :focus)::before{   content: ""; background: transparent;   }
@@ -96,7 +96,7 @@ header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-i
 
 /* Call Our Store */
 /* Left */
-#cos .col-6:first-child h2{ font-size: 55px;    }
+/* #cos .col-6:first-child h2{ font-size: 55px;    } */
 /* Right */
 #cos .col-6:last-child .btn{    top: auto;  bottom: -10%;    left: auto; right: 70px;    }
 #cos .col-6:last-child img:last-child{  right: auto;    left: 120px;    top: 50%;   transform: translate(-50%, -50%);}
@@ -106,7 +106,7 @@ header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-i
 #supportus .row .col-6{ padding-left: 0; padding-right: 0;  width: calc(50% - 1%);}
 #supportus .container-fluid{    width: 100%;    max-width: 1799px;  margin: auto;   }
 #supportus .row .col-6:last-child{  padding: 10vw 2vw;    }
-#supportus .btn{    width: 120px;   margin-top: 3vw;}
+#supportus .btn{    margin-top: 3vw;}
 
 
 
@@ -141,9 +141,17 @@ footer .builtby .sm-icons:hover a:not(:hover){  background: transparent;  color:
 
     /* Hero Banner */
     #hero-bnr .col-6:last-child img:nth-child(2){   height: 15rem;  width: 15rem;   right: 15%; bottom: -5%;    }
+
+    /* About Us */
+    #aboutus::before, #cos::before{ width: 95%; }
     
 }
 @media (max-width: 1440px){
+
+    h1,h2{  font-size: 3.5em;   line-height: normal; }
+    h2{ font-size: 3rem;    }
+    p{  font-size: 0.8rem;    }
+
 /* Hero Banner */
 #hero-bnr .col-6:last-child img:nth-child(2){       height: 14rem;  width: 14rem; right: 25%;  bottom: -5%; }    
 #hero-bnr .col-6:last-child img:nth-child(3){   right: 55%; }
@@ -160,12 +168,9 @@ footer .builtby .sm-icons:hover a:not(:hover){  background: transparent;  color:
 
 @media (max-width: 1399px){
 
-h1,h2{  font-size: 3.5em;    margin: 0;   line-height: 3.5rem;  }
-
 /* Hero Banner */
 #hero-bnr{  padding: 75px 0 !important; }
 /* Left */
-#hero-bnr h1{   font-size: 3.5em;   }
 #hero-bnr .col-6 .pe-75{    padding-right: 50px !important; }
 /* Right */
 #hero-bnr .col-6:last-child img:nth-child(2){       height: 15rem;  width: 15rem; right: 20%;  bottom: -5%; }    
@@ -212,7 +217,6 @@ h1,h2{  font-size: 3.5em;    margin: 0;   line-height: 3.5rem;  }
 #cos{   padding: 75px 0 !important; }
 #cos::before{   width: 1199px;  }
 /* Left */
-#cos .col-6:first-child h2{ font-size: 50px;    }
 #cos .col-6:first-child::before{    font-size: 10rem;   }
 /* Right */
 #aboutus .col-6:last-child{    padding: 0 120px;  }
@@ -232,13 +236,10 @@ footer .col-6:first-child .fa-solid ~ p {    padding-right: 200px !important;   
 
 @media (max-width: 1199px){
 
-h1,h2{  font-size: 3.5em;    margin: 0;   line-height: 3rem; }
-
 
 /* Hero Banner */
 #hero-bnr{  padding: 50px 0 !important}
 /* Left */
-#hero-bnr h1{   margin-bottom: 25px !important; }
 #hero-bnr .col-6 .pe-75{    margin-bottom:  25px !important;    padding-right: 0;   padding: 0% !important;  }  
 /* Right */
 #hero-bnr .col-6:first-child .trustpilot{   font-size: 1rem !important;   margin-top: 15px; }
@@ -252,7 +253,7 @@ h1,h2{  font-size: 3.5em;    margin: 0;   line-height: 3rem; }
 #aboutus{   padding: 50px 0 !important; }
 #aboutus::before{   width: 992px;  height: 95%;}
 /* Left */
-#aboutus .col-6:first-child h2{ padding-right: 100px !important;    }
+#aboutus .col-6:first-child h2{ padding-right: 50px !important;    line-height: 2.5rem; }
 #aboutus .col-6:first-child::before{    font-size: 8rem;   top: 0%;    }
 /* Right */
 #aboutus .col-6:last-child{    padding: 0 80px;  }
@@ -269,7 +270,6 @@ h1,h2{  font-size: 3.5em;    margin: 0;   line-height: 3rem; }
 #cos{   padding: 50px 0 !important; }
 #cos::before{   width: 992px;  height: 95%;}
 /* Left */
-#cos .col-6:first-child h2{ font-size: 40px;    }
 #cos .col-6:first-child::before{    font-size: 8rem;   top: 0%;    }
 /* Right */
 #cos .col-6:last-child{    padding: 0 80px;  }
@@ -308,7 +308,17 @@ footer .col-6:first-child .fa-solid ~ p {    padding-right: 80px !important;   }
 }
 
 
+
+
+
+
+
+
 @media (max-width: 1024px){
+
+    h1,h2{  font-size: 2.6em;    margin: 0;   line-height: normal; }
+    h2{ font-size: 2rem;    }
+    p{  font-size: 0.8rem;    }
 
     /* Hero Banner */
     #hero-bnr .col-6:last-child img:nth-child(2){   right: 25%; }
@@ -324,7 +334,7 @@ h1,h2{  margin: 0;   line-height: 2.5rem;   }
 /* Hero Banner */
 #hero-bnr{  padding: 25px 0 !important}
 /* Left */
-#hero-bnr h1{   font-size: 3em;    margin-bottom: 15px !important; }
+#hero-bnr h1{   font-size: 2em;    margin-bottom: 15px !important; }
 #hero-bnr p{    margin-bottom:  15px !important;    }
 #hero-bnr .col-6:first-child .trustpilot{   font-size: 1rem !important;   margin-top: 15px; }
 #hero-bnr .col-6:first-child .tp-logo{  height: 30px;   width: 30px;    }
@@ -335,8 +345,8 @@ h1,h2{  margin: 0;   line-height: 2.5rem;   }
     
     
 /* About Us */
-#aboutus{   padding: 25px 0 !important; }
-#aboutus::before{   width: 768px;  }
+#aboutus{   padding: 50px 0 !important; }
+#aboutus::before{   width: 95%;  }
 /* Left */
 #aboutus .col-6:first-child::before{    font-size: 6rem;   top: 0%; }
 #aboutus .col-6:first-child p{  padding-right: 0 !important;}

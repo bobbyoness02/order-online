@@ -1,4 +1,4 @@
-.container{ width: 100%;    max-width: calc(100% - 40px);   margin: auto;   }
+
 .btn{   padding: 0.7rem 2rem !important;  }
 .btn:is(:focus, :hover) {   padding: 0.7rem 1.1rem !important;    }
 
@@ -60,7 +60,7 @@
 footer .row:first-child .col-6:last-child{   display: grid; grid-template-columns: auto auto;   gap: 30px;  }
 footer .row:first-child .col-6:last-child .col-4{   width: 100%;    }
 
-@media (max-width: 459px){
+@media (max-width: 491px){
     #hero-bnr h1{   padding-right: 10px;    }
     #aboutus .col-6:first-child h2{ padding-right: 0 !important;    }
     #aboutus .col-6:last-child{ margin-top: -5%;    }
