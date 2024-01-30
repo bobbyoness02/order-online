@@ -23,8 +23,8 @@ p{ font-size: 0.65rem}
 /* Call our store */
 #cos::before{   width: 100% !important; height: 95%;    }
 /* left */
-#cos .col-6:first-child h2{ margin-bottom: 10px !important;    padding-right: 150px !important;    }
-#cos .col-6:first-child p{  margin-bottom: 10px !important;    padding-right: 30% !important;   }
+#cos .col-6:first-child h2{ padding-right: 150px !important;    }
+#cos .col-6:first-child p{  padding-right: 30% !important;   }
 
 /* How it works */
 #hiw{   padding: 25px 0 !important; }
