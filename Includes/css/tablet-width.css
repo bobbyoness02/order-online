@@ -26,7 +26,7 @@ header .mobile-nav{ display: flex !important;   }
 #aboutus::before{   width: 100% !important;   height: 100%;   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); top: 50%; }
 /* Left */
 #aboutus .col-6:first-child{  padding-bottom: 3rem;   }
-#aboutus .col-6:first-child::before{    font-size: 8rem;    top: 15%;   transform: rotate(-10deg) translate(-50%, -50%); left: 50%;  opacity: 0.8;}
+#aboutus .col-6:first-child::before, #cos .col-6:first-child::before{    font-size: 8rem;    top: 15%;   transform: rotate(-10deg) translate(-50%, -50%); left: 50%;  opacity: 0.8;}
 #aboutus .col-6:first-child h2{    padding-right: 40% !important;   margin-bottom: 15px !important;   }
 /* Right */
 #aboutus .col-6:last-child, #cos .col-6:last-child{ padding: 0 0 0 50%;  margin-top: -20%;   }
@@ -54,7 +54,6 @@ header .mobile-nav{ display: flex !important;   }
 #menu{  padding:  50px 0 !important;    }
 
 
-
 /* Simple Checkout */
 #simp-ckt{  padding: 50px 0 100px !important; }
 #simp-ckt .row{ flex-direction: column-reverse; align-items: start !important;  }
@@ -66,16 +65,15 @@ header .mobile-nav{ display: flex !important;   }
 
 
 /* Call our Store */
-#cos::before{   width: calc(576px + 30px) !important;   height: 100%;}
+#cos::before{   width: 100%;   height: 100%;    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);    }
 /* Left */
-#cos .col-6:first-child::before{    font-size: 5rem;    top: 15%;   }
 #cos .col-6:first-child h2{    padding-right: 10% !important; }
 /* Right */
-#cos .col-6:last-child .btn{    font-size: 0.6rem;  width: 40px;    right: -10px;}
-#cos .col-6:last-child img:last-child{  left: 30px !important;  }
+#cos .col-6:last-child .btn{    width: 50px;    right: -3rem; transform: translate(-50%, -50%) scale(0.8);}
+#cos .col-6:last-child img:last-child{  left: 16rem !important;  }
 
 /* Supportus */
-#supportus{ padding: 25px 0 !important;   }
+#supportus{ padding: 50px 0 !important;   }
 #supportus .container-fluid{    width: 100%;    max-width: 576px;   }
 #supportus .row{    flex-direction: column; }
 #supportus .row .col-6{ width: 100%;    }
@@ -87,3 +85,4 @@ footer .container > .row:first-child{   display: block; }
 footer .container > .row:first-child .col-6{    width: 100%;    }
 footer .col-6:first-child .fa-solid ~ p{    padding: 0 !important;  }
 footer .container > .row:first-child .col-6:last-child{ margin-top: 50px;   }
+footer .builtby .sm-icons a{    padding: 4px 7px; }
