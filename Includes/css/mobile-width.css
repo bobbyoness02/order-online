@@ -39,7 +39,7 @@ p{ font-size: 0.65rem}
 #simp-ckt{  padding: 50px 0px !important; }
 #simp-ckt .col-6:last-child p{  padding-right: 5% !important;  }
 #simp-ckt .col-6:last-child a:is(:hover, :focus){ padding: 0.7rem 1.3rem !important;    }
-#simp-ckt .row .col-6:first-child .card{        transform: translate(-50%, -50%) scale(0.8) !important;   }
+#simp-ckt .row .col-6:first-child .card{        transform: translate(-50%, -50%) scale(1) !important;   }
 
 /* Call out Store */
 #cos .btn:is(:hover,:focus){    padding: 0.7rem 1rem !important;    }
