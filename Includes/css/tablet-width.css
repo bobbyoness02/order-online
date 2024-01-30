@@ -17,7 +17,7 @@ header .mobile-nav{ display: flex !important;   }
 /* Hero Banner */
 #hero-bnr{background-image: linear-gradient(45deg, #ffffffbb, #ffffffbb), url(/assets/hero-bnr-img-main.jpg);   background-position: center;    background-repeat: no-repeat;   background-size: cover; }
 #hero-bnr .container::before{  content: "";    background: #35b9be;    position: absolute; height: 100%;   width: 100%;    -webkit-clip-path: ellipse(50% 70% at 100% 0%); clip-path: ellipse(50% 70% at 100% 0%); top: 0; right: 0;   opacity: 0.2;   z-index: 0;   }
-#hero-bnr .container::after{  content: "";    background: #35b9be;    position: absolute; height: 100%;   width: 100%;    -webkit-clip-path: polygon(100% 80%, 0% 100%, 100% 100%); clip-path: polygon(100% 80%, 0% 100%, 100% 100%); top: 0; right: 0;   opacity: 0.2;   z-index: 0;   }
+#hero-bnr .container::after{  content: "";    background: #35b9be;    position: absolute; height: 100%;   width: 100%;    -webkit-clip-path: polygon(100% 80%, 0% 100%, 100% 100%); clip-path: polygon(100% 80%, 0% 100%, 100% 100%); bottom: 0; right: 0;   opacity: 0.2;   z-index: 0;   }
 #hero-bnr .col-6{   width: 100%;    position: relative;  z-index: 2;}
 #hero-bnr .col-6:last-child{    display: none;  }
 #hero-bnr .col-6 .pe-75{    padding-right: 100px !important;  }
@@ -29,7 +29,7 @@ header .mobile-nav{ display: flex !important;   }
 #aboutus .col-6:first-child::before, #cos .col-6:first-child::before{    font-size: 8rem;    top: 15%;   transform: rotate(-10deg) translate(-50%, -50%); left: 50%;  opacity: 0.8;}
 #aboutus .col-6:first-child h2{    padding-right: 40% !important;   margin-bottom: 15px !important;   }
 /* Right */
-#aboutus .col-6:last-child, #cos .col-6:last-child{ padding: 0 0 0 50%;  margin-top: -20%;   }
+#aboutus .col-6:last-child, #cos .col-6:last-child{ padding: 0 0 0 50%;  margin-top: -15%;   }
 #aboutus .col-6:last-child .btn{ left: 16rem;}
 #aboutus .col-6:last-child img:last-child{  right: -2rem;    }
 
@@ -84,6 +84,6 @@ header .mobile-nav{ display: flex !important;   }
 
 /* Footer */
 footer .container > .row:first-child{   display: block; }
-footer .col-6:first-child .fa-solid ~ p{    padding: 0 !important;  }
+footer .col-6:first-child .fa-solid ~ p{    padding-right: 250px !important;  }
 footer .container > .row:first-child .col-6:last-child{ margin-top: 50px;   }
 footer .builtby .sm-icons a{    padding: 4px 7px; }

@@ -1,7 +1,6 @@
 h1,h2{  font-size: 3rem;   line-height: normal; }
 h2{ font-size: 2rem;    }
 p{ font-size: 0.65rem}   
-.btn{   padding: 0.7rem 2rem !important;  }
 .btn:is(:focus, :hover){   padding: 0.7rem 1.1rem !important;    }
 
 /* Hero Banner */
@@ -11,7 +10,7 @@ p{ font-size: 0.65rem}
 #aboutus .col-6:last-child, #cos .col-6:last-child{    margin-top: -15%;   padding: 0 10% 0 40%;    }
 #aboutus .col-6:first-child h2{ padding-right: 50% !important;  }
 #aboutus .col-6:first-child p{  padding-right: 10rem !important; }
-#aboutus .col-6:last-child .btn{    left: 13.5rem;  }
+#aboutus .col-6:last-child .btn{    left: 13.5rem;  line-height: 20px;  }
 #aboutus .col-6:last-child img:last-child{  right: 2rem; }
 #aboutus .col-6:last-child img:last-child, #cos .col-6:last-child img:last-child{   height: 15vw; width: 15vw;}
 
@@ -25,6 +24,7 @@ p{ font-size: 0.65rem}
 /* left */
 #cos .col-6:first-child h2{ padding-right: 150px !important;    }
 #cos .col-6:first-child p{  padding-right: 30% !important;   }
+#cos .col-6:last-child .btn{    line-height: 20px;  }
 
 /* How it works */
 #hiw{   padding: 25px 0 !important; }
@@ -43,11 +43,12 @@ p{ font-size: 0.65rem}
 
 /* Call out Store */
 #cos .btn:is(:hover,:focus){    padding: 0.7rem 1rem !important;    }
-#cos .col-6:last-child .btn{    width: 50px;    right: 0.5rem; transform: translate(-50%, -50%) scale(0.8);}
+#cos .col-6:last-child .btn{    right: 0.5rem;  }
 #cos .col-6:last-child img:last-child{  left: 14rem !important;  }
 
 
 /* Support Us */
+#supportus .row .col-6:last-child{  padding: 5vw !important;    }
 #supportus h2{  font-size: 2rem;    }
 
 /* Footer */
@@ -81,4 +82,5 @@ footer .row:first-child .col-6:last-child{   display: flex; gap: 30px;  }
     #menu .d-flex .col-6{   width: 50%; transform: scale(0.8);  }
 
     footer .container > .row:first-child .col-6:last-child{ flex-wrap: wrap;    }
+    footer .col-6:first-child .fa-solid ~ p{    padding-right: 150px !important;    }
 }

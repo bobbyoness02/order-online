@@ -4,7 +4,7 @@ header .logo{   color: #35b9be; }
 header .row .cart{  padding: 10px 15px; }
 header .row .cart .fa-solid{  color: #fff;  }
 header .row .cart .it-cnt{  top: -10px ;    right: -10px;   padding: 2px 5px !important;    line-height: 1rem;  }
-header:has(.desktop-nav, .mobile-nav) li a{    font-weight: 500;  width: max-content !important;    }
+header:has(.desktop-nav, .mobile-nav) li a{    font-weight: 500;    }
 /* Mobile Nav */
 header .mobile-nav{ display: none !important;   }
 header .mobile-nav > *:not(.col:nth-child(2)){  padding: 0 8px; }
@@ -33,13 +33,13 @@ header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-i
 #aboutus::before, #cos::before{   content: "";    height: 90%;   width: 1440px;    background: #35b9be22;    position: absolute; top: 48%;   left: 50%; -webkit-clip-path: polygon(0 10%, 100% 5%, 100% 100%, 0% 100%);  clip-path: polygon(0 10%, 100% 5%, 100% 100%, 0% 100%);   transform: translate(-50%, -50%);   }
 /* Left */
 #aboutus .col-6:first-child h2{ padding-right: 200px !important;    }
-#aboutus .col-6:first-child, #cos .col-6:first-child{   z-index: 10;    }
+#aboutus .col-6, #cos .col-6{   z-index: 10;    }
 #aboutus .col-6:first-child::before, #cos .col-6:first-child::before{    position: absolute; content: "yumyum";  z-index: -1;    color: #fff;    font-size: 12rem;    font-family: Seaweed Script;  transform: rotate(-15deg);  left: 5%;    font-weight: 500;}
 
 /* Right */
 #aboutus .col-6:last-child, #cos .col-6:last-child{ padding: 0 120px;   }
 #aboutus .col-6:last-child img:first-child, #cos .col-6:last-child img:first-child{ border-radius: 20px;    object-view-box: inset(25px);   }
-#aboutus .col-6:last-child .btn, #cos .col-6:last-child .btn{    word-wrap: break-word;  width: 50px;    transform: translate(-50%, -50%);   left: 120px;    font-size: 1.1rem;  border: none;   padding: 20px !important; }
+#aboutus .col-6:last-child .btn, #cos .col-6:last-child .btn{    word-wrap: break-word;  width: 50px;    transform: translate(-50%, -50%);   left: 120px;   border: none;   padding: 0.7rem 1.1rem !important;  }
 #aboutus .col-6:last-child .btn:is(:hover, :focus), #cos .col-6:last-child .btn:is(:hover, :focus){ letter-spacing: normal; }
 #aboutus .col-6:last-child .btn::after, #cos .col-6:last-child .btn::after{ content: url(/assets/party-confetti-dark.svg);  height: auto;  width: 150px;    top: 50%;   left: 50%;  transform: translate(-50%, -50%) }
 #aboutus .col-6:last-child img:last-child, #cos .col-6:last-child img:last-child{  bottom: 20%;    height: 8vw;   width: 8vw;   object-fit: cover; right: 3.5rem;   object-view-box:inset(0 -20% 0 0);   }
@@ -66,17 +66,18 @@ header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-i
 #hiw .container-lg .prf-2{  height: 60px;   width: 60px;    border: 4px solid #fff; top: 130px;   right: 65px;   object-fit: cover; }
 
 /* Browse Our Menu  */
+#menu::before{content: "";  height: 90%;  width: 1440px;    background: #35b9be22;  position: absolute;   top: 48%;  left: 50%;    -webkit-clip-path: polygon(0 10%, 100% 5%, 100% 100%, 0% 100%); clip-path: polygon(0 10%, 100% 5%, 100% 100%, 0% 100%);  transform: translate(-50%, -50%);   }
+#menu .container{   z-index: 10;    }
 #menu .container .menu-sections{    width: 70%; margin: auto;   margin-top: 50px !important;    }
 #menu .container .menu-sections li .btn:is(:focus, :hover){    padding: 0.7rem 1.7rem !important;   width: 100%;  }
 #menu .container .menu-sections .active{    color: #fff;    box-shadow: 0 5px 10px 2px #22311d55;   border: 2px solid #35b9be;   letter-spacing: 2px;    }
 #menu .container .menu-sections a:not(.active){   border: 2px solid #22311d;  color: #22311d; font-weight: 500;   }
 #menu .container .menu-sections a:not(.active)::before{ content: ""; background: transparent; }
 #menu .container .menu-sections a:not(.active)::after{ content: "";   }
-#menu .container .menu-sections li .active:is(:focus, :hover){ padding: 0.7rem 2rem !important;  }
 
 
 #menu .container > .d-flex{ box-sizing: border-box;    }
-#menu .d-flex .col-6{  border-radius: 8px; border: 1px solid #35b9be;  box-sizing: border-box;  background-color: #fff; }
+#menu .d-flex .col-6{  border-radius: 8px; border: 1px solid #35b9be;  box-sizing: border-box;  background: #fff; align-items: center;}
 #menu .d-flex .col-6 .col{  border-radius: 10px; overflow: hidden;  }
 #menu .d-flex .col-6 .col img{  height: 100px;  width: 100px;   object-fit: cover;}
 #menu .d-flex .col-6 .col-4{   padding: 0;     flex-grow: 1;}
@@ -118,12 +119,12 @@ footer::before{ content: url(/assets/party-confetti.svg);   position: absolute; 
 /* Top */
 footer .container .row:first-child{ border-bottom: 1px solid #22311d;}
 /* Top Left */
-footer .col-6:first-child .fa-solid ~ p{  padding-right: 400px;   }
+footer .col-6:first-child .fa-solid ~ p{  padding-right: 350px;   }
 /* Top Right */
-footer .col-6:last-child .col-4 li:not(:has(a)){   font-weight: 600;    margin-bottom: 25px;    }
+footer .col-6:last-child .col-4 li:not(:has(a)){   font-weight: 600;    margin-bottom: 1rem;    }
 footer .col-6:last-child .col-4 li:has(a){  padding: 0.2rem 0;}
 /* bottom */
-footer .builtby .sm-icons a{    border: 1px solid #22311d !important;   text-align: center; padding: 3px 7px;   transition: 0.5s;}
+footer .builtby .sm-icons a{    border: 1px solid #22311d !important;   text-align: center; padding: 3px 8px 5px;   transition: 0.5s;}
 footer .builtby .sm-icons a:has(.fa-youtube){   padding: 3px 6px 5px;   }
 footer .builtby .sm-icons a:has(.fa-instagram){   background: linear-gradient(45deg, #f9ce34, #ee2a7b, #6228d7);    color: #fff;    }
 footer .builtby .sm-icons a:has(.fa-twitter){    background: #1DA1F2;    color: #fff;    }
@@ -146,7 +147,7 @@ footer .builtby .sm-icons:hover a:not(:hover){  background: transparent;  color:
 
     h1,h2{  font-size: 3.6em;   line-height: normal; }
     h2{ font-size: 3rem;    }
-    p{  font-size: 1rem;    }
+
 
 /* Hero Banner */
 #hero-bnr .col-6:last-child img:nth-child(2){       height: 14rem;  width: 14rem; right: 25%;  bottom: -5%; }    
@@ -183,8 +184,7 @@ footer .builtby .sm-icons:hover a:not(:hover){  background: transparent;  color:
 #aboutus .col-6:first-child h2{ padding-right: 150px !important;    }
 #aboutus .col-6:first-child::before{    font-size: 10rem;   }
 /* Right */
-#aboutus .col-6:last-child{    padding: 0 120px;  }
-#aboutus .col-6:last-child img:last-child{  right: 80px;    }
+#aboutus .col-6:last-child img:last-child{  right: 4rem;    }
 
 /* How it Works */
 #hiw h2{    padding-right: 0 !important;    }
@@ -219,11 +219,11 @@ footer .builtby .sm-icons:hover a:not(:hover){  background: transparent;  color:
 /* Left */
 #cos .col-6:first-child::before{    font-size: 10rem;   }
 /* Right */
-#aboutus .col-6:last-child{    padding: 0 120px;  }
-#aboutus .col-6:last-child img:last-child{  right: 4rem;    }
+#col .col-6:last-child{    padding: 0 120px;  }
+#col .col-6:last-child img:last-child{  right: 4rem;    }
 
 /* Footer */
-footer .col-6:first-child .fa-solid ~ p {    padding-right: 200px !important;   }
+footer .col-6:first-child .fa-solid ~ p {    padding-right: 250px !important;   }
 
 }
 
@@ -242,7 +242,7 @@ footer .col-6:first-child .fa-solid ~ p {    padding-right: 200px !important;   
 /* Hero Banner */
 #hero-bnr{  padding: 50px 0 !important}
 /* Left */
-#hero-bnr .col-6 .pe-75{    margin-bottom:  25px !important;    padding-right: 0;   padding: 0% !important;  }  
+#hero-bnr .col-6 .pe-75{    padding: 0% !important;  }  
 /* Right */
 #hero-bnr .col-6:first-child .trustpilot{   font-size: 1rem !important;   margin-top: 15px; }
 #hero-bnr .col-6:last-child img:nth-child(1){   border-radius: 70px 20px;   }
@@ -259,8 +259,9 @@ footer .col-6:first-child .fa-solid ~ p {    padding-right: 200px !important;   
 #aboutus .col-6:first-child::before{    font-size: 8rem;   top: 0%;    }
 /* Right */
 #aboutus .col-6:last-child{    padding: 0 80px;  }
-#aboutus .col-6:last-child .btn{    padding: 1rem !important;   left: 80px; }
+#aboutus .col-6:last-child .btn{    padding: 1rem 1.2rem !important;   left: 80px; }
 #aboutus .col-6:last-child img:last-child{  right: 2rem;    }
+#aboutus .col-6:first-child p{    padding-right: 0px !important;    }
 
 /* Browse Our Menu */
 
@@ -277,7 +278,7 @@ footer .col-6:first-child .fa-solid ~ p {    padding-right: 200px !important;   
 #cos::before{   width: 992px;  height: 95%;}
 /* Right */
 #cos .col-6:last-child{    padding: 0 80px;  }
-#cos .col-6:last-child .btn{    padding: 1rem !important;   left: 80px; }
+#cos .col-6:last-child .btn{    left: 80px; width: 50px;    }
 #cos .col-6:last-child img:last-child{  right: 40px;    }
 
 /* How it works */
@@ -290,6 +291,9 @@ footer .col-6:first-child .fa-solid ~ p {    padding-right: 200px !important;   
 #hiw .container-lg .apple{  right: 60px;    }
 #hiw .container-lg .prf-1{  left: 50px; }
 #hiw .container-lg .prf-2{  right: 40px;    top: 100px; }
+
+/* Browse Our Menu */
+#menu::before{  height: 100%;   }
 
 /* Simple Checkout */
 /* Left */
@@ -307,7 +311,7 @@ footer .col-6:first-child .fa-solid ~ p {    padding-right: 200px !important;   
 
 
 /* Footer */
-footer .col-6:first-child .fa-solid ~ p {    padding-right: 80px !important;   }
+footer .col-6:first-child .fa-solid ~ p {    padding-right: 150px !important;   }
 }
 
 
@@ -321,7 +325,6 @@ footer .col-6:first-child .fa-solid ~ p {    padding-right: 80px !important;   }
 
     h1,h2{  font-size: 2.6em;    margin: 0;   line-height: normal; }
     h2{ font-size: 2rem;    }
-    p{  font-size: 0.8rem;    }
 
     /* Hero Banner */
     #hero-bnr .col-6:last-child img:nth-child(2){   right: 25%; }
@@ -333,7 +336,7 @@ footer .col-6:first-child .fa-solid ~ p {    padding-right: 80px !important;   }
 
     h1,h2{  font-size: 2em;   line-height: normal; }
     h2{ font-size: 1.7rem;  }
-    p, footer{  font-size: 0.7rem;    }
+    p, footer, .btn{  font-size: 0.7rem;    }
     
     
 /* Hero Banner */
@@ -355,7 +358,6 @@ footer .col-6:first-child .fa-solid ~ p {    padding-right: 80px !important;   }
 #aboutus .col-6:first-child::before, #cos .col-6:first-child::before{    font-size: 6rem;   }
 #aboutus .col-6:first-child h2{ padding-right: 7rem !important;   }
 /* Right */
-#aboutus .col-6:last-child{    padding: 0 80px;  }
 #aboutus .col-6:last-child .btn{    width: 50px;    transform: scale(0.8) translate(-50%, -50%);    } 
 #aboutus .col-6:last-child img:last-child{  right: 2.5rem;    }
 
@@ -378,6 +380,9 @@ footer .col-6:first-child .fa-solid ~ p {    padding-right: 80px !important;   }
 /* Step 3 */
 #hiw .container-lg .prf-1{  transform: scale(0.8);  left: 20px; }
 #hiw .container-lg .prf-2{  transform: scale(0.8);  top: 70px;  right: 20px;    }
+
+/* Call our Store */
+#cos .col-6:last-child .btn{    padding: 0.7rem 1.2rem !important;  }
 
 
 /* Browse Our Menu */
