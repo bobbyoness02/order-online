@@ -67,16 +67,16 @@ header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-i
 #hiw .container-lg .prf-2{  height: 60px;   width: 60px;    border: 4px solid #fff; top: 130px;   right: 65px;   object-fit: cover; }
 
 /* Browse Our Menu  */
-#menu .container .menu-sections{    width: 100%;    }
+#menu .container .menu-sections{    width: 100%;    margin-top: 50px !important;    }
 #menu .container .menu-sections li .btn:is(:focus, :hover){    padding: 0.7rem 2rem !important;   width: 100%;  }
 #menu .container .menu-sections .active{    color: #fff;    box-shadow: 0 5px 10px 2px #22311d55;   border: 2px solid #35b9be;   letter-spacing: 2px;    }
 #menu .container .menu-sections a:not(.active){   border: 2px solid #22311d;  color: #22311d; font-weight: 500;   }
 #menu .container .menu-sections a:not(.active)::before{ content: ""; background: transparent; }
 #menu .container .menu-sections a:not(.active)::after{ content: "";   }
 
-#menu .container .container-lg{ gap: 40px 30px;  box-sizing: border-box;    }
-#menu .d-flex .col-6{  border-radius: 8px; border: 2px solid #35b9be;  box-sizing: border-box;  justify-content: space-between; width: 48.5%;}
-#menu .d-flex .col-6 .col{padding: 0; border-radius: 10px; overflow: hidden;    flex-shrink: 0;}
+#menu .container > .d-flex{ box-sizing: border-box;    }
+#menu .d-flex .col-6{  border-radius: 8px; border: 1px solid #35b9be;  box-sizing: border-box;  }
+#menu .d-flex .col-6 .col{  border-radius: 10px; overflow: hidden;  }
 #menu .d-flex .col-6 .col img{  height: 100px;  width: 100px;   object-fit: cover;}
 #menu .d-flex .col-6 .col-4{   padding: 0;     flex-grow: 1;}
 #menu .d-flex .col-6 .col-4 .row{   flex-wrap: nowrap;   }
@@ -271,7 +271,7 @@ footer .col-6:first-child .fa-solid ~ p {    padding-right: 200px !important;   
 
 /* Browse Our Menu */
 
-#menu .d-flex .col-6{   width: 48%; flex-direction: column; align-items: start !important;  }
+#menu .d-flex .col-6{   flex-direction: column; align-items: start !important;  }
 #menu .d-flex .col-6 > *{  flex: 1 0 auto; width: 100%; margin: 0 !important;   }
 #menu .d-flex .col-6 .col{  margin-bottom: 1rem !important;}
 #menu .d-flex .col-6 .col-4 .btn{   padding: 0.7rem 1.3rem !important; }
@@ -363,7 +363,7 @@ footer .col-6:first-child .fa-solid ~ p {    padding-right: 80px !important;   }
 /* Left */
 #aboutus .col-6:first-child::before{    font-size: 6rem;   top: 0%; }
 #aboutus .col-6:first-child h2{ padding-right: 7rem !important;   }
-#aboutus .col-6:first-child p{  padding-right: 0 !important;}
+#aboutus .col-6:first-child p, #cos .col-6:first-child p{  padding-right: 100px !important;}
 /* Right */
 #aboutus .col-6:last-child{    padding: 0 80px;  }
 #aboutus .col-6:last-child .btn{    font-size: 0.9rem;  width: 45px;    transform: scale(0.8) translate(-50%, -50%);    } 
@@ -390,7 +390,6 @@ footer .col-6:first-child .fa-solid ~ p {    padding-right: 80px !important;   }
 
 
 /* How it works */
-#menu .d-flex .col-6{   width: 46.5%; }
 
 
 /* Simple Checkout */

@@ -5,7 +5,7 @@ p{ font-size: 0.65rem}
 .btn:is(:focus, :hover){   padding: 0.7rem 1.1rem !important;    }
 
 /* Hero Banner */
-#hero-bnr .col-6 .pe-75{    padding-right: 75px !important; }
+#hero-bnr .col-6 .pe-75{    padding-right: 150px !important; }
 
 /* About Us */
 #aboutus .col-6:last-child{    margin-top: -15%;   padding: 0 10% 0 40%;    }
@@ -24,8 +24,8 @@ p{ font-size: 0.65rem}
 #cos::before{   width: 95% !important; height: 90%;    }
 /* left */
 #cos .col-6:first-child::before{    font-size: 4rem;    }
-#cos .col-6:first-child h2{ margin-bottom: 10px;    padding-right: 150px !important;    }
-#cos .col-6:first-child p{  margin-bottom: 10px;    padding-right: 75px !important; }
+#cos .col-6:first-child h2{ margin-bottom: 10px !important;    padding-right: 150px !important;    }
+#cos .col-6:first-child p{  margin-bottom: 10px !important;    padding-right: 30% !important;   }
 
 /* How it works */
 #hiw{   padding: 25px 0 !important; }
@@ -38,11 +38,9 @@ p{ font-size: 0.65rem}
 
 /* Simple Checkout  */
 #simp-ckt{  padding: 50px 0px !important; }
-#simp-ckt .col-6:last-child h2{ padding-right: 50px !important;    }
-#simp-ckt .col-6:last-child p{  padding-right: 75px !important;    }
+#simp-ckt .col-6:last-child p{  padding-right: 5% !important;  }
 #simp-ckt .col-6:last-child a:is(:hover, :focus){ padding: 0.7rem 1.3rem !important;    }
-#simp-ckt .row .col-6:first-child > img{    width: 35%; }
-#simp-ckt .row .col-6:first-child .card{        transform: translate(-50%, -50%) scale(0.9) !important;   }
+#simp-ckt .row .col-6:first-child .card{        transform: translate(-50%, -50%) scale(0.8) !important;   }
 
 /* Call out Store */
 #cos .btn:is(:hover,:focus){    padding: 0.7rem 1rem !important;    }

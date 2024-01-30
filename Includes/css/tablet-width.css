@@ -20,7 +20,7 @@ header .mobile-nav{ display: flex !important;   }
 #hero-bnr .container::after{  content: "";    background: #35b9be;    position: absolute; height: 100%;   width: 100%;    -webkit-clip-path: polygon(100% 80%, 0% 100%, 100% 100%); clip-path: polygon(100% 80%, 0% 100%, 100% 100%); top: 0; right: 0;   opacity: 0.2;   z-index: 0;   }
 #hero-bnr .col-6{   width: 100%;    position: relative;  z-index: 2;}
 #hero-bnr .col-6:last-child{    display: none;  }
-#hero-bnr .col-6 .pe-75{    padding-right: 0px !important;  }
+#hero-bnr .col-6 .pe-75{    padding-right: 100px !important;  }
 
 /* About Us */
 #aboutus::before{   width: 100% !important;   height: 100%;   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); top: 50%; }
@@ -29,7 +29,7 @@ header .mobile-nav{ display: flex !important;   }
 #aboutus .col-6:first-child::before{    font-size: 8rem;    top: 15%;   transform: rotate(-10deg) translate(-50%, -50%); left: 50%;  opacity: 0.8;}
 #aboutus .col-6:first-child h2{    padding-right: 40% !important;   margin-bottom: 15px !important;   }
 /* Right */
-#aboutus .col-6:last-child{ padding: 0 0 0 50%;  margin-top: -20%;   }
+#aboutus .col-6:last-child, #cos .col-6:last-child{ padding: 0 0 0 50%;  margin-top: -20%;   }
 #aboutus .col-6:last-child .btn{ left: 16rem;}
 #aboutus .col-6:last-child img:last-child{  right: -2rem;    }
 
@@ -59,11 +59,10 @@ header .mobile-nav{ display: flex !important;   }
 #simp-ckt{  padding: 50px 0 100px !important; }
 #simp-ckt .row{ flex-direction: column-reverse; align-items: start !important;  }
 #simp-ckt .row .col-6{  width: 100%;       }
-#simp-ckt .row .col-6:first-child{   height: 60vh;   width: 100%;    margin-left: 10%;  }
+#simp-ckt .row .col-6:first-child{   height: 60vh;   width: 100%;    margin-left: 20%;  }
 #simp-ckt .row .col-6:first-child > img{    width: 40%;}
 #simp-ckt .row .col-6:first-child .card{  transform: translate(-50%, -50%) scale(1) !important;   }
-#simp-ckt .col-6:last-child h2{ padding-right: 10% !important;  }  
-#simp-ckt .col-6:last-child p{  padding-right: 25% !important;  }
+#simp-ckt .col-6:last-child p{  padding-right: 20% !important;  }
 
 
 /* Call our Store */
@@ -71,9 +70,7 @@ header .mobile-nav{ display: flex !important;   }
 /* Left */
 #cos .col-6:first-child::before{    font-size: 5rem;    top: 15%;   }
 #cos .col-6:first-child h2{    padding-right: 10% !important; }
-#cos .col-6:first-child p{  padding: 0 !important;  }
 /* Right */
-#cos .col-6:last-child{ padding: 0 6%;  }
 #cos .col-6:last-child .btn{    font-size: 0.6rem;  width: 40px;    right: -10px;}
 #cos .col-6:last-child img:last-child{  left: 30px !important;  }
 
