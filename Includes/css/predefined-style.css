@@ -120,4 +120,4 @@ input[type=number] {    -moz-appearance: textfield; appearance: none;   }
 
 
 /* Go to Top */
-.got{   padding: 10px 15px; bottom: 3%;  right: 2%; z-index: 999;   }
+.got{   padding: 10px 15px; bottom: 20%;  right: 4%; z-index: 999;   }
