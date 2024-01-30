@@ -10,7 +10,7 @@ p{ font-size: 0.65rem}
 /* About Us */
 #aboutus .col-6:last-child, #cos .col-6:last-child{    margin-top: -15%;   padding: 0 10% 0 40%;    }
 #aboutus .col-6:first-child h2{ padding-right: 50% !important;  }
-#aboutus .col-6:first-child p{  padding-right: 5rem !important; }
+#aboutus .col-6:first-child p{  padding-right: 10rem !important; }
 #aboutus .col-6:last-child .btn{    left: 13.5rem;  }
 #aboutus .col-6:last-child img:last-child{  right: 2rem; }
 #aboutus .col-6:last-child img:last-child, #cos .col-6:last-child img:last-child{   height: 15vw; width: 15vw;}

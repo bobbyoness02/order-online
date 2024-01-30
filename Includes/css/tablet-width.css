@@ -36,7 +36,7 @@ header .mobile-nav{ display: flex !important;   }
 /* How it works */
 #hiw{   padding: 50px 0 !important; }
 #hiw .container-lg::after{  content: "";}
-#hiw .container-lg::before{ content: "";    width: 3px; background: #22311d;    height: 100%;   border-radius: 50px;    top: 50%;   left: -5%; transform: translate(-50%, -50%);   }    
+#hiw .container-lg::before{ content: "";    width: 3px; background: #22311d;    height: 200%;   border-radius: 50px;    top: 50%;   left: 0%; transform: translate(-50%, -50%);   }    
 #hiw .container-lg{  gap: 30px;  margin-top: 50px !important; }
 #hiw .row .col-4{   width: 100%;       margin: auto;  display: flex;  align-items: center; gap: 30px;  text-align: start;   }  
 #hiw .row .col-4 .steps-content h4{ margin-top: 0px !important;   }
