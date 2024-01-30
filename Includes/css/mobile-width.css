@@ -51,8 +51,7 @@ p{ font-size: 0.65rem}
 #supportus h2{  font-size: 2rem;    }
 
 /* Footer */
-footer .row:first-child .col-6:last-child{   display: grid; grid-template-columns: auto auto;   gap: 30px;  }
-footer .row:first-child .col-6:last-child .col-4{   width: 100%;    }
+footer .row:first-child .col-6:last-child{   display: flex; gap: 30px;  }
 
 @media (max-width: 425px){
 
@@ -75,4 +74,11 @@ footer .row:first-child .col-6:last-child .col-4{   width: 100%;    }
 
     #aboutus .col-6:first-child::before, #cos .col-6:first-child::before{   font-size: 6rem;    }
 
+    #simp-ckt .row .col-6:first-child{  transform: scale(0.8);  margin-left: 0; }
+    #simp-ckt .row .col-6:first-child > img{    width: 200px;   }
+
+    /* Browse Our Menu */
+    #menu .d-flex .col-6{   width: 50%; transform: scale(0.9);  }
+
+    footer .container > .row:first-child .col-6:last-child{ flex-wrap: wrap;    }
 }
