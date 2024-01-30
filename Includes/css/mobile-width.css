@@ -78,7 +78,7 @@ footer .row:first-child .col-6:last-child{   display: flex; gap: 30px;  }
     #simp-ckt .row .col-6:first-child > img{    width: 200px;   }
 
     /* Browse Our Menu */
-    #menu .d-flex .col-6{   width: 50%; transform: scale(0.9);  }
+    #menu .d-flex .col-6{   width: 50%; transform: scale(0.8);  }
 
     footer .container > .row:first-child .col-6:last-child{ flex-wrap: wrap;    }
 }

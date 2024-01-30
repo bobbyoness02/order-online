@@ -17,7 +17,6 @@ header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-i
 
 
 /* Hero Bannner */
-
 /* Left */
 #hero-bnr .col-6:first-child .trustpilot{   font-weight: 600;   }
 #hero-bnr .col-6 .tp-logo{  height: 3vw;   width: 3vw;    margin-left: -10px;   }
@@ -35,7 +34,7 @@ header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-i
 /* Left */
 #aboutus .col-6:first-child h2{ padding-right: 200px !important;    }
 #aboutus .col-6:first-child, #cos .col-6:first-child{   z-index: 10;    }
-#aboutus .col-6:first-child::before, #cos .col-6:first-child::before{    position: absolute; content: "yumyum";  z-index: -1;    color: #fff;    font-size: 12rem;    font-family: Seaweed Script;  transform: rotate(-15deg); top: 15%;   left: 5%;    font-weight: 500;}
+#aboutus .col-6:first-child::before, #cos .col-6:first-child::before{    position: absolute; content: "yumyum";  z-index: -1;    color: #fff;    font-size: 12rem;    font-family: Seaweed Script;  transform: rotate(-15deg);  left: 5%;    font-weight: 500;}
 
 /* Right */
 #aboutus .col-6:last-child, #cos .col-6:last-child{ padding: 0 120px;   }
@@ -77,7 +76,7 @@ header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-i
 
 
 #menu .container > .d-flex{ box-sizing: border-box;    }
-#menu .d-flex .col-6{  border-radius: 8px; border: 1px solid #35b9be;  box-sizing: border-box;  }
+#menu .d-flex .col-6{  border-radius: 8px; border: 1px solid #35b9be;  box-sizing: border-box;  background-color: #fff; }
 #menu .d-flex .col-6 .col{  border-radius: 10px; overflow: hidden;  }
 #menu .d-flex .col-6 .col img{  height: 100px;  width: 100px;   object-fit: cover;}
 #menu .d-flex .col-6 .col-4{   padding: 0;     flex-grow: 1;}
