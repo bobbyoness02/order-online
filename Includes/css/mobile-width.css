@@ -1,8 +1,8 @@
 h1,h2{  font-size: 3rem;   line-height: normal; }
 h2{ font-size: 2rem;    }
-p{  font-size: 0.8rem;    }
+p{ font-size: 0.65rem}   
 .btn{   padding: 0.7rem 2rem !important;  }
-.btn:is(:focus, :hover) {   padding: 0.7rem 1.1rem !important;    }
+.btn:is(:focus, :hover){   padding: 0.7rem 1.1rem !important;    }
 
 /* Hero Banner */
 #hero-bnr .col-6 .pe-75{    padding-right: 75px !important; }
@@ -34,7 +34,6 @@ p{  font-size: 0.8rem;    }
 /* Browse our menu */
 #menu{  padding: 25px 0 !important; }
 #menu .container > p{   width: 75% !important; }
-#menu .container .menu-sections{    flex-wrap: nowrap;  width: 100%;    }
 #menu .container > .d-grid{ grid-template-columns: auto;    margin-top: 25px !important;    }
 
 /* Simple Checkout  */

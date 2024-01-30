@@ -2,6 +2,7 @@ body{   font-size: 0.75rem;  }
 
 h1,h2{  font-size: 3rem;   line-height: normal; }
 h2{ font-size: 2.3rem;    }
+p{ font-size: 0.7rem;   }
 .d-btn::after{  font-size: 25px;    }
 .col-6{ width: 100%; }
 /* Header */   
@@ -51,7 +52,6 @@ header .mobile-nav{ display: flex !important;   }
 
 /* Browser our Menu */
 #menu{  padding:  50px 0 !important;    }
-#menu .container > .d-flex{ margin-top: 50px !important;    }
 
 
 

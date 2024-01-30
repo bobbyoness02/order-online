@@ -67,13 +67,14 @@ header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-i
 #hiw .container-lg .prf-2{  height: 60px;   width: 60px;    border: 4px solid #fff; top: 130px;   right: 65px;   object-fit: cover; }
 
 /* Browse Our Menu  */
-#menu .container .menu-sections{    width: 50%; gap: 50px; flex-wrap: nowrap;   }
-#menu .container .menu-sections .active{    color: #fff;    box-shadow: 0 5px 10px 2px #22311d55;   border: none;   letter-spacing: 2px;    }
+#menu .container .menu-sections{    width: 100%;    }
+#menu .container .menu-sections li .btn:is(:focus, :hover){    padding: 0.7rem 2rem !important;   width: 100%;  }
+#menu .container .menu-sections .active{    color: #fff;    box-shadow: 0 5px 10px 2px #22311d55;   border: 2px solid #35b9be;   letter-spacing: 2px;    }
 #menu .container .menu-sections a:not(.active){   border: 2px solid #22311d;  color: #22311d; font-weight: 500;   }
 #menu .container .menu-sections a:not(.active)::before{ content: ""; background: transparent; }
 #menu .container .menu-sections a:not(.active)::after{ content: "";   }
 
-#menu .container > .d-flex{ gap: 30px;  box-sizing: border-box; flex-wrap: wrap;    }
+#menu .container .container-lg{ gap: 40px 30px;  box-sizing: border-box;    }
 #menu .d-flex .col-6{  border-radius: 8px; border: 2px solid #35b9be;  box-sizing: border-box;  justify-content: space-between; width: 48.5%;}
 #menu .d-flex .col-6 .col{padding: 0; border-radius: 10px; overflow: hidden;    flex-shrink: 0;}
 #menu .d-flex .col-6 .col img{  height: 100px;  width: 100px;   object-fit: cover;}
@@ -389,7 +390,7 @@ footer .col-6:first-child .fa-solid ~ p {    padding-right: 80px !important;   }
 
 
 /* How it works */
-#menu .d-flex .col-6{   width: 47%; }
+#menu .d-flex .col-6{   width: 46.5%; }
 
 
 /* Simple Checkout */
