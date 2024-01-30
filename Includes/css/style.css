@@ -69,7 +69,7 @@ header .mobile-nav .menu-icon:is(:hover, :focus, :active, :visited) ~ li .list-i
 #menu::before{content: "";  height: 90%;  width: 1440px;    background: #35b9be22;  position: absolute;   top: 48%;  left: 50%;    -webkit-clip-path: polygon(0 10%, 100% 5%, 100% 100%, 0% 100%); clip-path: polygon(0 10%, 100% 5%, 100% 100%, 0% 100%);  transform: translate(-50%, -50%);   }
 #menu .container{   z-index: 10;    }
 #menu .container .menu-sections{    width: 70%; margin: auto;   margin-top: 50px !important;    }
-#menu .container .menu-sections li .btn:is(:focus, :hover){    padding: 0.7rem 1.7rem !important;   width: 100%;  }
+#menu .container .menu-sections li .btn:is(:focus, :hover){    padding: 0.7rem 1.7rem !important;   }
 #menu .container .menu-sections .active{    color: #fff;    box-shadow: 0 5px 10px 2px #22311d55;   border: 2px solid #35b9be;   letter-spacing: 2px;    }
 #menu .container .menu-sections a:not(.active){   border: 2px solid #22311d;  color: #22311d; font-weight: 500;   }
 #menu .container .menu-sections a:not(.active)::before{ content: ""; background: transparent; }
